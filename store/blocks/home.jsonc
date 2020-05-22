@@ -1,15 +1,32 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      //"rich-text"
+      "info-card#banner"
+      //"shelf"
     ]
   },
   "rich-text": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "Hola Mundito",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
     }
+  },
+  "info-card#banner": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://www.dogalize.com/wp-content/uploads/2017/06/La-sverminazione-e-la-pulizia-del-cucciolo-del-cane-2-800x400-800x400.jpg",
+      "headline": "SUNTEM 100% OPERATIONALI",
+      "subhead": "Diviziile cpomerciale şi suport.",
+      "callToActionMode": "button",
+      "callToActionText": "PROFITAŢI DE REDUCERILE ONLINE!",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockClass": "vintage"
+    }
   }
+  
 }
