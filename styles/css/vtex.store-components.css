@@ -2,3 +2,7 @@
     background-color: #EDCFD1;
     margin-bottom: 2px;
 }
+
+.infoCardContainer--promo {
+    height: 300px;
+}

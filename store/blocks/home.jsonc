@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "info-card#banner",
-      "shelf#fitosani"
+      "shelf#fitosani",
+      "flex-layout.row#prom1",
+      "flex-layout.row#prom2"
     ]
   },
   "rich-text": {
@@ -26,5 +28,86 @@
       "textAlignment": "center",
       "blockClass": "vintage"
     }
+  },
+  "flex-layout.row#prom1":{
+    "children": [
+      "flex-layout.col"
+    ],
+    "props":{
+      "marginTop": 2
+    }
+  },
+  "flex-layout.col":{
+    "children": [
+      "flex-layout.row#banner"
+    ]
+  },
+  "flex-layout.row#banner":{
+    "children": [
+      "info-card#one",
+      "info-card#dos"
+    ],
+    "props":{
+      "colGap": 5
+    }
+  },
+  "info-card#one": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114037/perroygato_mgzvtr.jpg",
+      "isFullModeStyle": true,
+      "callToActionText": "Discover",
+      "textPosition": "center",
+      "blockClass": "promo"
+    }
+  },
+  "info-card#dos": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113929/gatos_e4lyye.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Discover",
+      "textPosition": "center",
+      "blockClass": "promo"
+    }
+  },
+  "flex-layout.row#prom2":{
+    "children": [
+      "flex-layout.col#dos"
+    ],
+    "props":{
+      "marginTop": 2
+    }
+  },
+  "flex-layout.col#dos":{
+    "children": [
+      "flex-layout.row#banner2"
+    ]
+  },
+  "flex-layout.row#banner2":{
+    "children": [
+      "info-card#tres",
+      "info-card#cuatro"
+    ],
+    "props":{
+      "colGap": 5
+    }
+  },
+  "info-card#tres": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113805/perros-personalidad-2-770x395_aak3ig.jpg",
+      "isFullModeStyle": true,
+      "callToActionText": "Discover",
+      "textPosition": "center",
+      "blockClass": "promo"
+    }
+  },
+  "info-card#cuatro": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114090/gatosperros1-kyXF--620x349_abc_m16uz2.jpg",
+      "isFullModeStyle": true,
+      "callToActionText": "Discover",
+      "textPosition": "center",
+      "blockClass": "promo"
+    }
   }
+ 
 }
