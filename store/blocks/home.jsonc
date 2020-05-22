@@ -55,7 +55,7 @@
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114037/perroygato_mgzvtr.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Discover",
+      "callToActionText": "Hråna câini",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -64,7 +64,7 @@
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113929/gatos_e4lyye.png",
       "isFullModeStyle": true,
-      "callToActionText": "Discover",
+      "callToActionText": "Produse de îngrijire",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -95,7 +95,7 @@
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113805/perros-personalidad-2-770x395_aak3ig.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Discover",
+      "callToActionText": "Antiparazitare",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -104,7 +104,7 @@
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114090/gatosperros1-kyXF--620x349_abc_m16uz2.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Discover",
+      "callToActionText": "Suplimente",
       "textPosition": "center",
       "blockClass": "promo"
     }
