@@ -4,7 +4,8 @@
 }
 
 .infoCardContainer--promo {
-    height: 300px;
+    height: 15em;
+    width: 20em;
 }
 
 .infoCardCallActionContainer--promo :global(.vtex-button) {
@@ -12,13 +13,12 @@
     background-color: #0e368a;
     border: transparent;
     position: relative;
-    top: 7em;
-    left: 5em;
+    top: 6em;
     width: 20em;
 }
 
 .infoCardCallActionContainer--promo :global(.vtex-button):hover {
     color: black;
-    background-color: #2567ea;
+    background-color: #0e368a;
     border: transparent;
 }

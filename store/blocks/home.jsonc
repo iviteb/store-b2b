@@ -3,16 +3,27 @@
     "blocks": [
       "info-card#banner",
       "shelf#fitosani",
+      "rich-text#categorii",
       "flex-layout.row#prom1",
-      "flex-layout.row#prom2"
+      "flex-layout.row#prom2",
+      "shelf#animale",
+      "slider-layout#home"
     ]
   },
-  "rich-text": {
+  "rich-text#categorii": {
     "props": {
-      "text": "Hola Mundito",
+      "text": "Categorii",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#branduri": {
+    "props": {
+      "text": "Branduri",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
     }
   },
   "info-card#banner": {
@@ -34,7 +45,8 @@
       "flex-layout.col"
     ],
     "props":{
-      "marginTop": 2
+      "marginTop": 2,
+      "marginBottom": 2
     }
   },
   "flex-layout.col":{
@@ -45,7 +57,8 @@
   "flex-layout.row#banner":{
     "children": [
       "info-card#one",
-      "info-card#dos"
+      "info-card#dos",
+      "info-card#tres"
     ],
     "props":{
       "colGap": 5
@@ -69,12 +82,22 @@
       "blockClass": "promo"
     }
   },
+  "info-card#tres": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113805/perros-personalidad-2-770x395_aak3ig.jpg",
+      "isFullModeStyle": true,
+      "callToActionText": "Antiparazitare",
+      "textPosition": "center",
+      "blockClass": "promo"
+    }
+  },
   "flex-layout.row#prom2":{
     "children": [
       "flex-layout.col#dos"
     ],
     "props":{
-      "marginTop": 2
+      "marginTop": 2,
+      "marginBottom": 5
     }
   },
   "flex-layout.col#dos":{
@@ -84,20 +107,12 @@
   },
   "flex-layout.row#banner2":{
     "children": [
-      "info-card#tres",
-      "info-card#cuatro"
+      "info-card#cuatro",
+      "info-card#one",
+      "info-card#dos"
     ],
     "props":{
       "colGap": 5
-    }
-  },
-  "info-card#tres": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113805/perros-personalidad-2-770x395_aak3ig.jpg",
-      "isFullModeStyle": true,
-      "callToActionText": "Antiparazitare",
-      "textPosition": "center",
-      "blockClass": "promo"
     }
   },
   "info-card#cuatro": {

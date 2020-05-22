@@ -11,7 +11,23 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top Fitosanitare"
+        "titleText": "Fitosanitare"
+      }
+    }
+  },
+  "shelf#animale": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 10004,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 16,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Animale de ferma"
       }
     }
   }
