@@ -1,20 +1,18 @@
 {
-    "shelf": {
-        "blocks": [
-            "product-summary.shelf"
-        ],
-        "props": {
-          "category": 10005,
-          "orderBy": "OrderByTopSaleDESC",
-          "paginationDotsVisibility": "desktopOnly",
-          "productList": {
-            "maxItems": 16,
-            "itemsPerPage": 4,
-            "minItemsPerPage": 1,
-            "scroll": "BY_PAGE",
-            "arrows": true,
-            "titleText": "Top Fitosanitare"
-          }
-        }
+  "shelf#fitosani": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 10005,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 16,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Top Fitosanitare"
+      }
     }
+  }
 }

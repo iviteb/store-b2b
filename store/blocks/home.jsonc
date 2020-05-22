@@ -1,13 +1,12 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      //"rich-text"
-      "info-card#banner"
-      //"shelf"
+      "info-card#banner",
+      "shelf#fitosani"
     ]
   },
-  "rich-text": { 
-    "props": { 
+  "rich-text": {
+    "props": {
       "text": "Hola Mundito",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -23,10 +22,9 @@
       "subhead": "Diviziile cpomerciale şi suport.",
       "callToActionMode": "button",
       "callToActionText": "PROFITAŢI DE REDUCERILE ONLINE!",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/Fitosanitare",
       "textAlignment": "center",
       "blockClass": "vintage"
     }
   }
-  
 }
