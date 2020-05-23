@@ -19,7 +19,7 @@
 }
 
 .infoCardCallActionContainer--promo :global(.vtex-button):hover {
-    color: black;
+    color: white;
     background-color: #0e368a;
     border: transparent;
 }

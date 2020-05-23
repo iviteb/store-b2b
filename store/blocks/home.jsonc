@@ -65,6 +65,7 @@
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114037/perroygato_mgzvtr.jpg",
       "isFullModeStyle": true,
       "callToActionText": "Hråna câini",
+      "callToActionUrl": "/caini/hrana-caini/hrana-uscata-caini",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -74,6 +75,7 @@
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113929/gatos_e4lyye.png",
       "isFullModeStyle": true,
       "callToActionText": "Hråna pisici ",
+      "callToActionUrl": "/pisici/hrana-pisici",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -82,7 +84,8 @@
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198181/620159_1_esrmjv.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Produse de îngrijire ",
+      "callToActionText": "Produse de îngrijire",
+      "callToActionUrl": "/149?map=productClusterIds",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -117,9 +120,10 @@
   },
   "info-card#cuatro": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590197806/mirada-perros-770x395_qnpqcc.png",
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198507/procesionaria-del-pino-peligro-para-perros-perro-848x477x80xX_ojqk4j.jpg",
       "isFullModeStyle": true,
       "callToActionText": "Antiparazitare ",
+      "callToActionUrl": "/150?map=productClusterIds",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -129,6 +133,7 @@
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114090/gatosperros1-kyXF--620x349_abc_m16uz2.jpg",
       "isFullModeStyle": true,
       "callToActionText": "Suplimente",
+      "callToActionUrl": "/154?map=productClusterIds",
       "textPosition": "center",
       "blockClass": "promo"
     }
@@ -138,6 +143,7 @@
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198023/nutricion_perros_2_ufafnu.jpg",
       "isFullModeStyle": true,
       "callToActionText": "Hråna diete",
+      "callToActionUrl": "/155?map=productClusterIds",
       "textPosition": "center",
       "blockClass": "promo"
     }
