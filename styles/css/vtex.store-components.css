@@ -6,6 +6,7 @@
 .infoCardContainer--promo {
     height: 15em;
     width: 20em;
+    border-radius: 5px 30px 45px 60px;
 }
 
 .infoCardCallActionContainer--promo :global(.vtex-button) {

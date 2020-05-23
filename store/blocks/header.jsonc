@@ -22,7 +22,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "header"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -48,7 +49,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://shop.vetro.vet/userfiles/c0cf24aa-eec1-41c3-bc9f-f5d5281f6a10/image/logo_v2.png",
+      "url": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590194566/logopet_qpewzk.png",
       "width": "80"
     }
   },

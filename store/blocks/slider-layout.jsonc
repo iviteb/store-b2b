@@ -6,7 +6,11 @@
             "image#brand3",
             "image#brand4",
             "image#brand5",
-            "image#brand6"
+            "image#brand6",
+            "image#brand7",
+            "image#brand8",
+            "image#brand9",
+            "image#brand10"
         ],
         "props": {
           "autoplay": {
@@ -44,6 +48,26 @@
       "image#brand6": {
         "props": {
           "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590178728/VETRO_-_Vetro_-_Brave_8_pyyv8j.jpg"
+        }
+      },
+      "image#brand7": {
+        "props": {
+          "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590178728/VETRO_-_Vetro_-_Brave_7_iphr9f.jpg"
+        }
+      },
+      "image#brand8": {
+        "props": {
+          "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590178728/VETRO_-_Vetro_-_Brave_10_ae1smm.jpg"
+        }
+      },
+      "image#brand9": {
+        "props": {
+          "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590178728/VETRO_-_Vetro_-_Brave_11_nxt600.jpg"
+        }
+      },
+      "image#brand10": {
+        "props": {
+          "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590178728/VETRO_-_Vetro_-_Brave_fcofek.jpg"
         }
       }
 }
