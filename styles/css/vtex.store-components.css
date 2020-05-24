@@ -23,3 +23,7 @@
     background-color: #0e368a;
     border: transparent;
 }
+
+.flexCol {
+    background-color: red !important;
+}

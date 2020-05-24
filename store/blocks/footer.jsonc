@@ -5,7 +5,10 @@
   "footer-layout.desktop": { 
     "children": [
       "flex-layout.row#footer"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
   },
   "footer-layout.mobile": { 
     "children": [

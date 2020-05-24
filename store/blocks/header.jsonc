@@ -7,29 +7,35 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      //"sticky-layout#desktop"
+      "flex-layout.row#1-desktop",
+      "header-row#2-desktop"
     ]
   },
+  /*
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
-  },
-  "flex-layout.row#desktop": {
+    "children": [
+      "flex-layout.row#desktop",
+      "header-row#2-desktop"
+    ]
+  },*/
+  "flex-layout.row#1-desktop": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "header"
+      "blockClass": "headerContainer"
     },
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ]
@@ -76,5 +82,243 @@
   },
   "drawer": {
     "children": []
+  },
+  "header-row#2-desktop": {
+    "children": ["vtex.menu@2.x:menu#websites", "header-spacer"]
+  },
+  /*
+  "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-in-curand",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/in-curand",
+            "noFollow": false,
+            "tagTitle": "In curand",
+            "text": "In curand"
+          }
+        },
+        {
+          "id": "menu-item-caini",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/caini",
+            "noFollow": false,
+            "tagTitle": "caini",
+            "text": "Caini"
+          }
+        },
+        {
+          "id": "menu-item-pisici",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pisici",
+            "noFollow": false,
+            "tagTitle": "pisici",
+            "text": "Pisici"
+          }
+        },
+        {
+          "id": "menu-item-pasari",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pasari",
+            "noFollow": false,
+            "tagTitle": "pasari",
+            "text": "Pasari"
+          }
+        },
+        {
+          "id": "menu-item-animale-ferma",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/animale-de-ferma",
+            "noFollow": false,
+            "tagTitle": "animale-de-ferma",
+            "text": "Animale de ferma"
+          }
+        },
+        {
+          "id": "menu-item-fitosanitare",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fitosanitare",
+            "noFollow": false,
+            "tagTitle": "fitosanitare",
+            "text": "Fitosanitare"
+          }
+        },
+        {
+          "id": "menu-item-biosecuritate",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/biosecuritate",
+            "noFollow": false,
+            "tagTitle": "biosecuritate",
+            "text": "Biosecuritate"
+          }
+        },
+        {
+          "id": "menu-item-rozatoare",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/rozatoare",
+            "noFollow": false,
+            "tagTitle": "rozatoare",
+            "text": "Rozatoare"
+          }
+        }
+    ]
+    }
+  }*/
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#in-curand",
+      "menu-item#caini",
+      "menu-item#pisici",
+      "menu-item#pasari",
+      "menu-item#animale-ferma",
+      "menu-item#fitosanitare",
+      "menu-item#biosecuritate",
+      "menu-item#rozatoare"
+    ]
+  },
+  "menu-item#in-curand": {
+    "props": {
+      "id": "menu-item-in-curand",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/in-curand",
+        "noFollow": false,
+        "tagTitle": "In curand",
+        "text": "In curand"
+      }
+    }
+  },
+  "menu-item#caini": {
+    "props": {
+      "id": "menu-item-caini",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/caini",
+        "noFollow": false,
+        "tagTitle": "Caini",
+        "text": "Caini"
+      }
+    }
+  },
+  "menu-item#pisici": {
+    "props": {
+      "id": "menu-item-pisici",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisici",
+        "noFollow": false,
+        "tagTitle": "pisici",
+        "text": "Pisici"
+      }
+    }
+  },
+  "menu-item#pasari": {
+    "props": {
+      "id": "menu-item-pasari",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pasari",
+        "noFollow": false,
+        "tagTitle": "Pasari",
+        "text": "Pasari"
+      }
+    }
+  },
+  "menu-item#animale-ferma": {
+    "props": {
+      "id": "menu-item-pasari",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/animale-ferma",
+        "noFollow": false,
+        "tagTitle": "Animale de Ferma",
+        "text": "Animale de Ferma"
+      }
+    }
+  },
+  "menu-item#fitosanitare": {
+    "props": {
+      "id": "menu-item-pasari",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fitosanitare",
+        "noFollow": false,
+        "tagTitle": "Fitosanitare",
+        "text": "Fitosanitare"
+      }
+    }
+  },
+  "menu-item#biosecuritate": {
+    "props": {
+      "id": "menu-item-pasari",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/biosecuritate",
+        "noFollow": false,
+        "tagTitle": "Biosecuritate",
+        "text": "Biosecuritate"
+      }
+    }
+  },
+  "menu-item#rozatoare": {
+    "props": {
+      "id": "menu-item-rozatoare",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rozatoare",
+        "noFollow": false,
+        "tagTitle": "Rozatoare",
+        "text": "Rozatoare"
+      }
+    }
   }
 }
