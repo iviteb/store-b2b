@@ -1,202 +1,82 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
+
   "header-layout.desktop": {
     "children": [
-      //"sticky-layout#desktop"
-      "flex-layout.row#1-desktop",
+      "header-row#main",
       "header-row#2-desktop"
     ]
-  },
-  /*
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": [
-      "flex-layout.row#desktop",
-      "header-row#2-desktop"
-    ]
-  },*/
-  "flex-layout.row#1-desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass": "headerContainer"
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
-  },
-  "logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590194566/logopet_qpewzk.png",
-      "width": "80"
-    }
-  },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
   },
   "header-row#2-desktop": {
     "children": ["vtex.menu@2.x:menu#websites", "header-spacer"]
   },
-  /*
-  "vtex.menu@2.x:menu#websites": {
-    "props": {
-      "items": [
-        {
-          "id": "menu-item-in-curand",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/in-curand",
-            "noFollow": false,
-            "tagTitle": "In curand",
-            "text": "In curand"
-          }
-        },
-        {
-          "id": "menu-item-caini",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/caini",
-            "noFollow": false,
-            "tagTitle": "caini",
-            "text": "Caini"
-          }
-        },
-        {
-          "id": "menu-item-pisici",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/pisici",
-            "noFollow": false,
-            "tagTitle": "pisici",
-            "text": "Pisici"
-          }
-        },
-        {
-          "id": "menu-item-pasari",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/pasari",
-            "noFollow": false,
-            "tagTitle": "pasari",
-            "text": "Pasari"
-          }
-        },
-        {
-          "id": "menu-item-animale-ferma",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/animale-de-ferma",
-            "noFollow": false,
-            "tagTitle": "animale-de-ferma",
-            "text": "Animale de ferma"
-          }
-        },
-        {
-          "id": "menu-item-fitosanitare",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/fitosanitare",
-            "noFollow": false,
-            "tagTitle": "fitosanitare",
-            "text": "Fitosanitare"
-          }
-        },
-        {
-          "id": "menu-item-biosecuritate",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/biosecuritate",
-            "noFollow": false,
-            "tagTitle": "biosecuritate",
-            "text": "Biosecuritate"
-          }
-        },
-        {
-          "id": "menu-item-rozatoare",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/rozatoare",
-            "noFollow": false,
-            "tagTitle": "rozatoare",
-            "text": "Rozatoare"
-          }
-        }
+  "header-layout.mobile": {
+    "children": [
+      "header-row#main-mobile",
+      "header-row#search"
     ]
+  },
+  "header-row#main-mobile": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "minicart",
+      "login"
+    ],
+  
+    "props": {
+      "sticky": true,
+      "inverted":true
     }
-  }*/
+  },
+  "header-row#main":{
+    "children": [
+      "logo",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "sticky": true,
+      "inverted":true
+    }
+  },
+  "header-row#search": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "sticky": true
+    }
+  },
+  "login":{
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Login"
+    }
+  },
+  
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://vetro.vtexassets.com/assets/vetro.vetro-theme/1.0.9/logo-vet-white___f7a797dd7f61e7597410989239fa38e5.png",
+      "width": "100"
+    }
+  },
   "vtex.menu@2.x:menu#websites": {
     "children": [
       "menu-item#in-curand",
@@ -207,6 +87,7 @@
       "menu-item#fitosanitare",
       "menu-item#biosecuritate",
       "menu-item#rozatoare"
+      
     ]
   },
   "menu-item#in-curand": {
@@ -320,5 +201,29 @@
         "text": "Rozatoare"
       }
     }
+  },
+  "menu-item#shop": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop"] // Defining a submenu
+  },
+  "vtex.menu@2.x:submenu#shop": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": [
+      "menu-item#shop"
+    ]
   }
 }

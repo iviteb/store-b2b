@@ -24,6 +24,12 @@
     border: transparent;
 }
 
-.flexCol {
+.headerRow {
     background-color: red !important;
+}
+
+.vtex-minicart-2-x-openIconContainer {
+    color: white;
+    background-color: #0e368a;
+    border: transparent;
 }
