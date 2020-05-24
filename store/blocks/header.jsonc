@@ -200,30 +200,17 @@
         "tagTitle": "Rozatoare",
         "text": "Rozatoare"
       }
-    }
-  },
-  "menu-item#shop": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
-      }
     },
-    "blocks": ["vtex.menu@2.x:submenu#shop"] // Defining a submenu
+    "blocks": ["vtex.menu@2.x:submenu#rozatoare"] // Defining a submenu
   },
-  "vtex.menu@2.x:submenu#shop": {
+  "vtex.menu@2.x:submenu#rozatoare": {
     "children": [
-      "vtex.menu@2.x:menu#submenushop"
+      "vtex.menu@2.x:menu#submenurozatoare"
     ]
   },
-  "vtex.menu@2.x:menu#submenushop": {
+  "vtex.menu@2.x:menu#submenurozatoare": {
     "children": [
-      "menu-item#shop"
+      "menu-item#biosecuritate"
     ]
   }
 }
