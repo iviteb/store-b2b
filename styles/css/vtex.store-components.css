@@ -11,7 +11,7 @@
 
 .infoCardCallActionContainer--promo :global(.vtex-button) {
     color: white;
-    background-color: #0e368a;
+    background: #0e368a;
     border: transparent;
     position: relative;
     top: 6em;
@@ -24,12 +24,6 @@
     border: transparent;
 }
 
-.headerRow {
-    background-color: red !important;
-}
-
-.vtex-minicart-2-x-openIconContainer {
-    color: white;
+.headerStickyRow--headerMain {
     background-color: #0e368a;
-    border: transparent;
 }

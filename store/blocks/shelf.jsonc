@@ -6,12 +6,13 @@
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
-        "maxItems": 16,
-        "itemsPerPage": 4,
+        "maxItems": 20,
+        "itemsPerPage": 5,
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Fitosanitare"
+        "titleText": "Fitosanitare",
+        "gap": "ph5"
       }
     }
   },
@@ -21,13 +22,15 @@
       "category": 10004,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
+      "blockClass": "shelf-animale",
       "productList": {
-        "maxItems": 16,
-        "itemsPerPage": 4,
+        "maxItems": 20,
+        "itemsPerPage": 5,
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Animale de ferma"
+        "titleText": "Animale de ferma",
+        "gap": "ph5"
       }
     }
   }

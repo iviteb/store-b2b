@@ -51,7 +51,8 @@
     ],
     "props": {
       "sticky": true,
-      "inverted":true
+      "inverted":true,
+      "blockClass": "headerMain"
     }
   },
   "header-row#search": {

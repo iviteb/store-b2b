@@ -2,12 +2,12 @@
   "store.home": {
     "blocks": [
       "info-card#banner",
-      "shelf#fitosani",
+      "flex-layout.row#fitosani",
       "rich-text#categorii",
       "flex-layout.row#prom1",
       "flex-layout.row#prom2",
-      "shelf#animale",
-      "slider-layout#home"
+      "flex-layout.row#animale",
+      "flex-layout.row#home"
     ]
   },
   "rich-text#categorii": {
@@ -17,6 +17,48 @@
       "textPosition": "CENTER",
       "font": "t-heading-3"
     }
+  },
+  "flex-layout.row#animale":{
+    "children":[
+      "flex-layout.col#animale"
+    ]
+  },
+  "flex-layout.col#animale":{
+    "children":[
+      "shelf#animale"
+    ],
+    "props":{
+      "paddingLeft": 5,
+      "paddingRight":5
+     }
+  },
+  "flex-layout.row#fitosani":{
+    "children":[
+      "flex-layout.col#fitosani"
+    ]
+  },
+  "flex-layout.col#fitosani":{
+    "children":[
+      "shelf#fitosani"
+    ],
+    "props":{
+      "paddingLeft": 5,
+      "paddingRight":5
+     }
+  },
+  "flex-layout.row#home":{
+    "children":[
+      "flex-layout.col#home"
+    ]
+  },
+  "flex-layout.col#home":{
+    "children":[
+      "slider-layout#home"
+    ],
+    "props":{
+      "paddingLeft": 5,
+      "paddingRight":5
+     }
   },
   "info-card#banner": {
     "props": {
