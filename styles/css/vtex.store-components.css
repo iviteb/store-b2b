@@ -24,6 +24,29 @@
     border: transparent;
 }
 
-.headerStickyRow--headerMain {
-    background-color: #0e368a;
+
+/* style product */
+
+.productImagesContainer--quickview .carouselContainer {
+    justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+    object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+    display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.productNameContainer {
+    color: #3f3f40;
+    font-weight: bold;
+    font-size: 30px;
 }
