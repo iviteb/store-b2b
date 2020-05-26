@@ -1,40 +1,17 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  "flex-layout.row#aboutmain": {
+    "children": ["flex-layout.col#about"]
   },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ],
+  "flex-layout.col#about": {
+    "children": ["flex-layout.row#about"],
     "props": {
-      "blockClass": "footer"
-    }
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "flex-layout.col#about"
-    ]
-  },
-  "flex-layout.col#about":{
-    "children":[
-      "flex-layout.row#about"
-    ],
-    "props":{
       "marginLeft": 8,
       "marginRight": 8
     }
   },
-  "flex-layout.row#about":{
-    "children":[
-      "rich-text#about",
-      "flex-layout.col#lineado"
-    ],
-    "props":{
+  "flex-layout.row#about": {
+    "children": ["rich-text#about", "flex-layout.col#lineado"],
+    "props": {
       "colGap": 10
     }
   },
@@ -45,11 +22,8 @@
       "textPosition": "LEFT"
     }
   },
-  "flex-layout.col#lineado":{
-    "children":[
-      "image",
-      "rich-text#link"
-    ]
+  "flex-layout.col#lineado": {
+    "children": ["image", "rich-text#link"]
   },
   "rich-text#link": {
     "props": {
