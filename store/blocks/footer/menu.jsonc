@@ -1,206 +1,144 @@
 {
-    "vtex.menu@2.x:menu#Products": {
+    "menu-item#produse":{
+      "props": {
+        "id": "menu-item-produse",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "Produse",
+          "text": "Produse"
+        }
+      }
+    },
+    "menu-item#branduri":{
+      "props": {
+        "id": "menu-item-branduri",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "Branduri",
+          "text": "Branduri"
+        }
+      }
+    },
+    "menu-item#info-center":{
+      "props": {
+        "id": "menu-item-infocenter",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "Info-center",
+          "text": "Info-center"
+        }
+      }
+    },
+    "menu-item#contact":{
+      "props": {
+        "id": "menu-item-contact",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "Contact",
+          "text": "Contact"
+        }
+      }
+    },
+    "menu-item#termeni-si":{
+      "props": {
+        "id": "menu-item-termeni-si",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "Termeni si",
+          "text": "Termeni si"
+        }
+      }
+    },
+    "menu-item#conditii":{
+      "props": {
+        "id": "menu-item-conditii",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "conditii",
+          "text": "Conditii"
+        }
+      }
+    },
+    "menu-item#sitemap":{
+      "props": {
+        "id": "menu-item-sitemap",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "sitemap",
+          "text": "sitemap"
+        }
+      }
+    },
+    "vtex.menu@2.x:menu#footer-produse": {
       "props": {
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#news",
-        "menu-item#blackfriday",
-        "menu-item#sale",
-        "menu-item#personalization"
+        "flex-layout.row#footer-links"
       ]
     },
-    "menu-item#news": {
-      "props": {
-        "id": "menu-item-news",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "News",
-          "text": "News"
-        }
-      }
-    },
-    "menu-item#blackfriday": {
-      "props": {
-        "id": "menu-item-black-friday",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "BlackFriday",
-          "text": "Black Friday"
-        }
-      }
-    },
-    "menu-item#sale": {
-      "props": {
-        "id": "menu-item-sale",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Sale",
-          "text": "Sale"
-        }
-      }
-    },
-    "menu-item#personalization": {
-      "props": {
-        "id": "menu-item-personalization",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Personalization",
-          "text": "Personalization"
-        }
-      }
-    },
-  
-    "vtex.menu@2.x:menu#footer-decoration": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#smartphones",
-        "menu-item#videogames",
-        "menu-item#tvs"
+    "flex-layout.row#footer-links":{
+      "children":[
+        "flex-layout.col#footer-links-1",
+        "flex-layout.col#footer-links-2"
       ]
     },
-  
-    "menu-item#smartphones": {
-      "props": {
-        "id": "menu-item-smartphones",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/decoration/smartphones",
-          "noFollow": true,
-          "tagTitle": "Smartphones",
-          "text": "Smartphones"
-        }
+    "flex-layout.col#footer-links-1":{
+      "children":[
+        "menu-item#produse",
+        "menu-item#branduri",
+        "menu-item#promotii",
+        "menu-item#info-center"
+      ],
+      "props":{
+        "paddingLeft": 5
       }
     },
-  
-    "menu-item#videogames": {
-      "props": {
-        "id": "menu-item-videogames",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/decoration/videogames",
-          "noFollow": true,
-          "tagTitle": "Videogames",
-          "text": "Videogames"
-        }
+    "flex-layout.col#footer-links-2":{
+      "children":[
+        "menu-item#contact",
+        "menu-item#termeni-si",
+        "menu-item#conditii",
+        "menu-item#sitemap"
+      ],
+      "props":{
+        "paddingRight": 5
       }
-    },
-  
-    "menu-item#tvs": {
-      "props": {
-        "id": "menu-item-tvs",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/decoration/tvs",
-          "noFollow": true,
-          "tagTitle": "TVs",
-          "text": "TVs"
-        }
-      }
-    },
-  
-    "vtex.menu@2.x:menu#footer-bags": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#bags",
-        "menu-item#backpacks",
-        "menu-item#necessaire"
-      ]
-    },
-  
-    "menu-item#bags": {
-      "props": {
-        "id": "menu-item-bags",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/bags/d",
-          "noFollow": true,
-          "tagTitle": "Bags",
-          "text": "Bags"
-        }
-      }
-    },
-  
-    "menu-item#backpacks": {
-      "props": {
-        "id": "menu-item-backpacks",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/bags/backpacks",
-          "noFollow": true,
-          "tagTitle": "Backpacks",
-          "text": "Backpacks"
-        }
-      }
-    },
-  
-    "menu-item#necessaire": {
-      "props": {
-        "id": "menu-item-necessaire",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/bags/necessaire",
-          "noFollow": true,
-          "tagTitle": "Necessaire",
-          "text": "Necessaire"
-        }
-      }
-    },
-  
-    "vtex.menu@2.x:menu#footer-clothing": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#clothing",
-        "menu-item#shorts",
-        "menu-item#tank-tops",
-        "menu-item#shirts",
-        "menu-item#sweatshirt",
-        "menu-item#cropped"
-      ]
     },
   
     "vtex.menu@2.x:menu#footer-mobile": {
@@ -208,187 +146,132 @@
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#clothing-mobile",
-        "menu-item#decoration-mobile",
-        "menu-item#sale-mobile"
+        "menu-item#produse-mobile"
       ]
     },
-  
-    "menu-item#clothing-mobile": {
+    "menu-item#produse-mobile": {
       "props": {
-        "id": "menu-item-category-clothing",
+        "id": "menu-item-category-produse",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/d",
+          "href": "#", //poner url
           "noFollow": true,
-          "tagTitle": "Clothing",
-          "text": "Clothing"
+          "tagTitle": "Produse",
+          "text": "Produse"
         }
       },
-      "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+      "blocks": ["vtex.menu@2.x:submenu.accordion#produse"]
     },
-    "vtex.menu@2.x:submenu.accordion#clothing": {
-      "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+    "vtex.menu@2.x:submenu.accordion#produse": {
+      "children": ["vtex.menu@2.x:menu#produse-accordion"]
     },
   
-    "vtex.menu@2.x:menu#clothing-accordion": {
+    "vtex.menu@2.x:menu#produse-accordion": {
       "props": {
         "orientation": "vertical"
       },
       "children": [
-        "menu-item#shorts",
-        "menu-item#tank-tops",
-        "menu-item#shirts",
-        "menu-item#sweatshirt",
-        "menu-item#cropped"
+        "menu-item#promotii",
+        "menu-item#medicamente",
+        "menu-item#cosmetice",
+        "menu-item#aparatura-parafarmaceutice",
+        "menu-item#echipamente"
       ]
     },
-  
-    "menu-item#decoration-mobile": {
+    "menu-item#promotii":{
       "props": {
-        "itemProps": {
-          "tagTitle": "Decoration",
-          "text": "Decoration"
-        }
-      },
-      "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-    },
-    "vtex.menu@2.x:submenu.accordion#decoration": {
-      "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-    },
-  
-    "vtex.menu@2.x:menu#footer-decoration-mobile": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#smartphones",
-        "menu-item#videogames",
-        "menu-item#tvs"
-      ]
-    },
-  
-    "menu-item#sale-mobile": {
-      "props": {
-        "itemProps": {
-          "tagTitle": "Sale",
-          "text": "Sale"
-        }
-      },
-      "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-    },
-    "vtex.menu@2.x:submenu.accordion#sale": {
-      "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-    },
-  
-    "vtex.menu@2.x:menu#footer-sale-mobile": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#smartphones",
-        "menu-item#videogames",
-        "menu-item#tvs"
-      ]
-    },
-  
-    "menu-item#clothing": {
-      "props": {
-        "id": "menu-item-category-clothing",
+        "id": "menu-item-promotii",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/d",
-          "noFollow": true,
-          "tagTitle": "Clothing",
-          "text": "Clothing"
+          "href": "#", //poner la direccion
+          "noFollow": false,
+          "tagTitle": "Promotii",
+          "text": "Promotii"
         }
       }
     },
-  
-    "menu-item#shorts": {
+    "menu-item#medicamente":{
       "props": {
-        "id": "menu-item-shorts",
+        "id": "menu-item-medicamente",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/shorts",
+          "href": "#", //poner la direccion
           "noFollow": false,
-          "tagTitle": "Shorts",
-          "text": "Shorts"
+          "tagTitle": "Medicamente",
+          "text": "Medicamente"
         }
       }
     },
-  
-    "menu-item#tank-tops": {
+    "menu-item#aparatura-parafarmaceutice":{
       "props": {
-        "id": "menu-item-tank-tops",
+        "id": "menu-item-aparatura-parafarmaceutice",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/tank-tops",
+          "href": "#", //poner la direccion
           "noFollow": false,
-          "tagTitle": "Tank tops",
-          "text": "Tank tops"
+          "tagTitle": "Aparatura, Parafarmaceutice",
+          "text": "Aparatura, Parafarmaceutice"
         }
       }
     },
-  
-    "menu-item#shirts": {
+    "menu-item#echipamente":{
       "props": {
-        "id": "menu-item-shirts",
+        "id": "menu-item-echipamente",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/shirts",
+          "href": "#", //poner la direccion
           "noFollow": false,
-          "tagTitle": "Shirts",
-          "text": "Shirts"
+          "tagTitle": "Echipamente si accesorii diverse",
+          "text": "Echipamente si accesorii diverse"
         }
       }
     },
-  
-    "menu-item#sweatshirt": {
+    "menu-item#cosmetice":{
       "props": {
-        "id": "menu-item-sweat-shirts",
+        "id": "menu-item-cosmetice",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/sweatshirt",
+          "href": "#", //poner la direccion
           "noFollow": false,
-          "tagTitle": "Sweatshirt",
-          "text": "Sweatshirt"
+          "tagTitle": "Cosmetice si igiera animala",
+          "text": "Cosmetice si igiera animala"
         }
       }
     },
-  
-    "menu-item#cropped": {
+    "menu-item#furaje":{
       "props": {
-        "id": "menu-item-cropped",
+        "id": "menu-item-furaje",
         "type": "custom",
         "iconId": null,
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/clothing/cropped",
+          "href": "#", //poner la direccion
           "noFollow": false,
-          "tagTitle": "Cropped",
-          "text": "Cropped"
+          "tagTitle": "Furaje, premixuri, aditivi ",
+          "text": "Furaje, premixuri, aditivi"
         }
       }
     }
+    
+  
   }
   

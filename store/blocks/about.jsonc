@@ -12,7 +12,8 @@
   "flex-layout.row#about": {
     "children": ["rich-text#about", "flex-layout.col#lineado"],
     "props": {
-      "colGap": 10
+      "colGap": 10,
+      "paddingLeft": 5
     }
   },
   "rich-text#about": {
@@ -34,9 +35,9 @@
   },
   "image": {
     "props": {
-      "width": "80",
+      "width": "50",
       "heigth": "10",
-      "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590194566/logopet_qpewzk.png"
+      "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590530549/vetro_shop_vjfnfo.png"
     }
   }
 }

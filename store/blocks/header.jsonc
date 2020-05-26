@@ -36,8 +36,7 @@
     ],
   
     "props": {
-      "sticky": true,
-      "inverted":true
+      "sticky": true
     }
   },
   "header-row#main":{
@@ -51,7 +50,6 @@
     ],
     "props": {
       "sticky": true,
-      "inverted":true,
       "blockClass": "headerMain"
     }
   },
@@ -74,7 +72,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://vetro.vtexassets.com/assets/vetro.vetro-theme/1.0.9/logo-vet-white___f7a797dd7f61e7597410989239fa38e5.png",
+      "url": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590530549/vetro_shop_vjfnfo.png",
       "width": "100"
     }
   },

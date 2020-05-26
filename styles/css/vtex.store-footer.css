@@ -4,9 +4,13 @@
 
 .row--menu-row .rowContainer {
     align-items: flex-start;
-    background-color: aqua;
 }
 
 .row--payment-methods {
     padding-top: 16px;
+}
+
+.footerLayout {
+    margin-top: 2em;
+    background-color: #dee6f7;
 }

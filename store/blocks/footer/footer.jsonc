@@ -2,19 +2,26 @@
     "footer": {
       "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
     },
+    "rich-text#links-uri": {
+      "props": {
+        "text": "*Links-uri utile*",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "t-heading-6",
+        "blockClass": "links-uri"
+      }
+    },
     "footer-layout.desktop": {
       "children": [
         "flex-layout.row#footer-1-desktop",
-        "flex-layout.row#footer-2-desktop",
-        "flex-layout.row#footer-3-desktop"
+        "flex-layout.row#footer-2-desktop"
       ]
     },
     "flex-layout.row#footer-1-desktop": {
       "children": [
-        "vtex.menu@2.x:menu#Products",
-        "vtex.menu@2.x:menu#footer-clothing",
-        "vtex.menu@2.x:menu#footer-decoration",
-        "vtex.menu@2.x:menu#footer-bags",
+        "flex-layout.col#lineado",
+        "footer-spacer",
+        "flex-layout.col#footer-1-links",
         "footer-spacer",
         "social-networks"
       ],
@@ -24,9 +31,29 @@
         "paddingBottom": 3
       }
     },
+    "flex-layout.col#footer-1-links": {
+      "children": [
+        "flex-layout.row#link-uri",
+        "vtex.menu@2.x:menu#footer-produse"
+      ]
+    },
+    "flex-layout.row#link-uri": {
+      "children": [
+        "flex-layout.col#link-uri"
+      ]
+    },
+    "flex-layout.col#link-uri": {
+      "children": [
+        "rich-text#links-uri"
+      ],
+      "props":{
+        "marginLeft": 7
+      }
+    },
   
     "social-networks": {
       "props": {
+
         "socialNetworks": [
           {
             "name": "Facebook",
@@ -90,8 +117,7 @@
     "flex-layout.col#footer-1-mobile": {
       "children": [
         "accepted-payment-methods",
-        "social-networks",
-        "rich-text#footer-mobile"
+        "social-networks"
       ],
       "props": {
         "blockClass": "payment-methods",
