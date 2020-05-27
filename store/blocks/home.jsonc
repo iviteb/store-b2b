@@ -71,7 +71,7 @@
       "callToActionMode": "button",
       "callToActionText": "PROFITAŢI DE REDUCERILE ONLINE!",
       "callToActionUrl": "/Fitosanitare",
-      "textAlignment": "center",
+      "textAlignment": "left",
       "blockClass": "vintage"
     }
   },
@@ -95,42 +95,53 @@
   },
   "flex-layout.row#banner":{
     "children": [
-      "info-card#one",
-      "info-card#dos",
-      "info-card#tres"
+      "info-card#promotii",
+      "info-card#medicamente",
+      "info-card#aparatura",
+      "info-card#echipamente"
     ],
     "props":{
       "colGap": 5
     }
   },
-  "info-card#one": {
+  "info-card#promotii": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114037/perroygato_mgzvtr.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Hråna câini",
-      "callToActionUrl": "/caini/hrana-caini/hrana-uscata-caini",
+      "callToActionText": "Promotii",
+      "callToActionUrl": "#",
       "textPosition": "center",
       "blockClass": "promo"
     }
   },
-  "info-card#dos": {
+  "info-card#medicamente": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113929/gatos_e4lyye.png",
       "isFullModeStyle": true,
-      "callToActionText": "Hråna pisici ",
-      "callToActionUrl": "/pisici/hrana-pisici",
+      "callToActionText": "Medicamente",
+      "callToActionUrl": "#",
       "textPosition": "center",
       "blockClass": "promo"
     }
   },
-  "info-card#tres": {
+  "info-card#aparatura": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198181/620159_1_esrmjv.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Produse de îngrijire",
-      "callToActionUrl": "/149?map=productClusterIds",
+      "callToActionText": "Instrumentar si parafamaceutice",
+      "callToActionUrl": "#",
       "textPosition": "center",
-      "blockClass": "promo"
+      "blockClass": "promo-largo"
+    }
+  },
+  "info-card#echipamente": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590547475/ysmv7tp3_5579887_20191003191919_q0elb4.jpg",
+      "isFullModeStyle": true,
+      "callToActionText": "Echimamente si accesorii diverse",
+      "callToActionUrl": "#",
+      "textPosition": "center",
+      "blockClass": "promo-largo"
     }
   },
   "flex-layout.row#prom2":{
@@ -153,40 +164,51 @@
   },
   "flex-layout.row#banner2":{
     "children": [
-      "info-card#cuatro",
-      "info-card#cinco",
-      "info-card#seis"
+      "info-card#cosmetice",
+      "info-card#furaje",
+      "info-card#hrana",
+      "info-card#cheaguri"
     ],
     "props":{
       "colGap": 5
     }
   },
-  "info-card#cuatro": {
+  "info-card#cosmetice": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198507/procesionaria-del-pino-peligro-para-perros-perro-848x477x80xX_ojqk4j.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Antiparazitare ",
-      "callToActionUrl": "/150?map=productClusterIds",
+      "callToActionText": "Cosmetice si igiena animala",
+      "callToActionUrl": "#",
       "textPosition": "center",
-      "blockClass": "promo"
+      "blockClass": "promo-largo"
     }
   },
-  "info-card#cinco": {
+  "info-card#furaje": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114090/gatosperros1-kyXF--620x349_abc_m16uz2.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Suplimente",
-      "callToActionUrl": "/154?map=productClusterIds",
+      "callToActionText": "Furaje,premixuri,aditivi",
+      "callToActionUrl": "#",
       "textPosition": "center",
-      "blockClass": "promo"
+      "blockClass": "promo-largo"
     }
   },
-  "info-card#seis": {
+  "info-card#hrana": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198023/nutricion_perros_2_ufafnu.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Hråna diete",
-      "callToActionUrl": "/155?map=productClusterIds",
+      "callToActionText": "Hrana animale de companie",
+      "callToActionUrl": "#",
+      "textPosition": "center",
+      "blockClass": "promo-largo"
+    }
+  },
+  "info-card#cheaguri": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590547723/funny-young-red-puppy-pomeranian-spitz-puppy-dog-Y74M8EC_c5ie4r.jpg",
+      "isFullModeStyle": true,
+      "callToActionText": "Cheaguri",
+      "callToActionUrl": "#",
       "textPosition": "center",
       "blockClass": "promo"
     }
