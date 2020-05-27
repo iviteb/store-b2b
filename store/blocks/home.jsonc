@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "info-card#banner",
+      "flex-layout.row#deals",
       "flex-layout.row#fitosani",
       "rich-text#categorii",
       "flex-layout.row#prom1",

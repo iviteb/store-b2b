@@ -5,3 +5,20 @@
 .flexCol--links-uri {
     height: 20%;
 }
+
+.flexRow--deals {
+    background-color: #0e368a;
+    padding: 1em 10em;
+}
+
+.imageElement {
+    color: red;
+}
+
+.flexCol--dealspromo {
+    align-items: center;
+}
+
+.flexColChild--dealspromo {
+    height: 50%;
+}

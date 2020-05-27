@@ -1,0 +1,102 @@
+{
+    "flex-layout.row#deals": {
+        "children": [
+          "flex-layout.col#deals1",
+          "flex-layout.col#deals2",
+          "flex-layout.col#deals3",
+          "flex-layout.col#deals4"
+        ],
+        "props": {
+          "blockClass": "deals"
+        }
+      },
+    
+    "flex-layout.col#deals1": {
+        "children": [
+          "image#deal1",
+          "rich-text#deal1"
+        ],
+        "props": {
+            "blockClass": "dealspromo"
+        }
+      },
+      "image#deal1": {
+        "props": {
+          "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1590612586/vetroB2B/Package_iso_icon-icons.com_54809_lqqjew.png",
+          "maxHeight": "34px",
+          "blockClass": "dealspromo"
+        }
+      },
+      "rich-text#deal1": {
+        "props": {
+          "text": "Transport gratuit",
+          "blockClass": "deals"
+        }
+      },
+      "flex-layout.col#deals2": {
+        "children": [
+          "image#deal2",
+          "rich-text#deal2"
+        ],
+        "props": {
+            "blockClass": "dealspromo"
+        }
+      },
+      "image#deal2": {
+        "props": {
+          "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1590612489/vetroB2B/delivery_transportation_4577_yxlluw.png",
+          "maxHeight": "34px",
+          "blockClass": "dealspromo"
+        }
+      },
+      "rich-text#deal2": {
+        "props": {
+          "text": "Livrare de o zi",
+          "blockClass": "deals"
+        }
+      },
+      "flex-layout.col#deals3": {
+        "children": [
+          "image#deal3",
+          "rich-text#deal3"
+        ],
+        "props": {
+            "blockClass": "dealspromo"
+        }
+      },
+      "image#deal3": {
+        "props": {
+          "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1590612349/vetroB2B/store_icon-icons.com_56116_dsmbvi.png",
+          "maxHeight": "34px",
+          "blockClass": "dealspromo"
+        }
+      },
+      "rich-text#deal3": {
+        "props": {
+          "text": "Ridicați în magazin",
+          "blockClass": "deals"
+        }
+      },
+      "flex-layout.col#deals4": {
+        "children": [
+          "image#deal4",
+          "rich-text#deal4"
+        ],
+        "props": {
+            "blockClass": "dealspromo"
+        }
+      },
+      "image#deal4": {
+        "props": {
+          "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1590612734/vetroB2B/headphones_3762_vcnfkl.png",
+          "maxHeight": "34px",
+          "blockClass": "dealspromo"
+        }
+      },
+      "rich-text#deal4": {
+        "props": {
+          "text": "Oferte exclusive",
+          "blockClass": "deals"
+        }
+      }
+}
