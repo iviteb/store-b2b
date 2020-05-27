@@ -3,6 +3,15 @@
     margin-bottom: 2px;
 }
 
+.infoCardImage--vintage {
+    transition: 1s ease;
+}
+
+.infoCardImage--vintage:hover {
+    border-radius: 50%;
+    transition: 1s ease;
+}
+
 .infoCardContainer--promo {
     height: 10em;
     width: 15em;
@@ -33,6 +42,7 @@
 
 .infoCardCallActionContainer--promo :global(.vtex-button) {
     color: white;
+    font-size: 0.8 rem;
     background: #0e368a;
     border: transparent;
     position: relative;
@@ -48,6 +58,7 @@
 
 .infoCardCallActionContainer--promo-largo :global(.vtex-button) {
     color: white;
+    font-size: 0.8 rem;
     background: #0e368a;
     border: transparent;
     position: relative;
