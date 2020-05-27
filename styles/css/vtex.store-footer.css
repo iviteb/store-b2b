@@ -3,7 +3,7 @@
 }
 
 .row--menu-row .rowContainer {
-    align-items: flex-start;
+    align-items: center;
 }
 
 .row--payment-methods {

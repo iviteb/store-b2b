@@ -1,3 +1,7 @@
 .flexRow--menu-row {
     margin-left: 50px;
 }
+
+.flexCol--links-uri {
+    height: 30%;
+}

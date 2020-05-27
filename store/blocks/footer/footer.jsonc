@@ -4,11 +4,17 @@
     },
     "rich-text#links-uri": {
       "props": {
-        "text": "*Links-uri utile*",
+        "text": "**Links-uri utile**",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+    "rich-text#social-foot": {
+      "props": {
+        "text": "**Social**",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-6",
-        "blockClass": "links-uri"
+        "blockClass": "social"
       }
     },
     "footer-layout.desktop": {
@@ -20,10 +26,9 @@
     "flex-layout.row#footer-1-desktop": {
       "children": [
         "flex-layout.col#lineado",
-        "footer-spacer",
         "flex-layout.col#footer-1-links",
-        "footer-spacer",
-        "social-networks"
+        "rich-text#about",
+        "flex-layout.row#social-foot"
       ],
       "props": {
         "blockClass": "menu-row",
@@ -35,7 +40,10 @@
       "children": [
         "flex-layout.row#link-uri",
         "vtex.menu@2.x:menu#footer-produse"
-      ]
+      ],
+      "props":{
+        "blockClass": "links-uri"
+      }
     },
     "flex-layout.row#link-uri": {
       "children": [
@@ -50,7 +58,20 @@
         "marginLeft": 7
       }
     },
-  
+    "flex-layout.row#social-foot": {
+      "children": [
+        "flex-layout.col#social-foot"
+      ]
+    },
+    "flex-layout.col#social-foot": {
+      "children": [
+        "rich-text#social-foot",
+        "social-networks"
+      ],
+      "props":{
+        "marginRight": 7
+      }
+    },
     "social-networks": {
       "props": {
 

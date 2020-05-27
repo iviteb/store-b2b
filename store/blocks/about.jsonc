@@ -3,17 +3,13 @@
     "children": ["flex-layout.col#about"]
   },
   "flex-layout.col#about": {
-    "children": ["flex-layout.row#about"],
-    "props": {
-      "marginLeft": 8,
-      "marginRight": 8
-    }
+    "children": ["flex-layout.row#about"]
+    
   },
   "flex-layout.row#about": {
     "children": ["rich-text#about", "flex-layout.col#lineado"],
     "props": {
-      "colGap": 10,
-      "paddingLeft": 5
+      "colGap": 10
     }
   },
   "rich-text#about": {
@@ -24,7 +20,10 @@
     }
   },
   "flex-layout.col#lineado": {
-    "children": ["image", "rich-text#link"]
+    "children": ["image", "rich-text#link"],
+    "props":{
+      "blockClass": "lineado"
+    }
   },
   "rich-text#link": {
     "props": {
@@ -35,8 +34,8 @@
   },
   "image": {
     "props": {
-      "width": "50",
-      "heigth": "10",
+      "width": "20",
+      "heigth": "5",
       "src": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590530549/vetro_shop_vjfnfo.png"
     }
   }
