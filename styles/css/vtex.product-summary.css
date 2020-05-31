@@ -41,3 +41,7 @@
 .image {
     border-radius: 0.25rem;
 }
+
+:global(.vtex-product-summary-2-x-priceContainer):last-child {
+    background-color: red;
+}

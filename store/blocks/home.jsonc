@@ -17,7 +17,8 @@
       "text": "Categorii",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "font": "t-heading-3",
+      "blockClass": "categories"
     }
   },
   "flex-layout.row#animale":{

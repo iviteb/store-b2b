@@ -2,3 +2,7 @@
 .label {
     color: #0e368a;
 }
+
+:global(.vtex-login-2-x-accessCodeOptionBtn) {
+    background-color: #0e368a;
+}

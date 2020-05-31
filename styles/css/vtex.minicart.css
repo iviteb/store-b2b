@@ -1,3 +1,8 @@
 .cartIcon--minicart {
     color: #0e368a;
 }
+
+:global(.vtex-minicart-2-x-container) {
+    margin-right: 2em;
+    margin-left: 1em;
+}
