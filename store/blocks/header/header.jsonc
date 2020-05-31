@@ -1,0 +1,152 @@
+{
+    "header": {
+      "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header.full": {
+      "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header-layout.desktop": {
+      "children": [
+        "sticky-layout#4-desktop"
+      ]
+    },
+  
+    
+    "header-row#2-desktop": {
+      "children": [ "category-menu", "header-spacer"]
+    },
+    
+    "category-menu": {
+      "props": {
+        "showAllDepartments": false,
+        "showSubcategories": true
+      }
+    },
+    "flex-layout.col#spacer": {
+      "props": {
+        "width": "grow"
+      }
+    },
+    "sticky-layout#4-desktop": {
+      "props": {
+        "blockClass": "sticky-header"
+      },
+      "children": ["flex-layout.row#4-desktop","header-row#2-desktop"]
+    },
+    "flex-layout.row#4-desktop": {
+      "props": {
+        "blockClass": "main-header",
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true
+      },
+      "children": [
+        "logo",
+        "flex-layout.col#spacer",
+        "search-bar",
+        "flex-layout.col#spacer",
+        "login",
+        "minicart"
+      ]
+    },
+    "login": {
+      "props": {
+        "showIconProfile": true,
+        "iconLabel": "Contul Meu",
+        "blockClass": "login-menu"
+      }
+    },
+    "minicart": {
+      "props": {
+        "showIconProfile": true,
+        "iconLabel": "Contul Meu",
+        "blockClass": "minicart"
+      }
+    },
+  
+    "logo": {
+      "props": {
+        "title": "Logo",
+        "href": "/",
+        "url": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590530549/vetro_shop_vjfnfo.png",
+        "width": "100"
+      }
+    },
+    "flex-layout.col#logo-desktop": {
+      "props": {
+        "verticalAlign": "middle"
+      },
+      "children": ["logo#desktop"]
+    },
+    "flex-layout.col#category-menu-externo": {
+      "props": {
+        "verticalAlign": "middle"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-menu-externo"
+      ]
+    },
+    "logo#desktop": {
+      "props": {
+        "title": "Logo",
+        "href": "/",
+        "url": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590530549/vetro_shop_vjfnfo.png",
+        "width": "200"
+      }
+    },
+    "header-layout.mobile": {
+      "children": ["sticky-layout#1-mobile"]
+    },
+    "sticky-layout#1-mobile": {
+      "children": ["flex-layout.row#1-mobile"]
+    },
+    "flex-layout.row#1-mobile": {
+      "children": [
+        "drawer",
+        "logo",
+        "search-bar",
+        "flex-layout.col#spacer",
+        "login",
+        "minicart.v2"
+      ],
+      "props": {
+        "blockClass": "main-header-mobile",
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "drawer": {
+      "children": [
+        "menu#drawer"
+      ]
+    },
+    "menu#drawer": {
+      "children": [
+        "menu-item#in-curand",
+        "menu-item#caini",
+        "menu-item#pisici",
+        "menu-item#pasari",
+        "menu-item#animale-ferma",
+        "menu-item#fitosanitare",
+        "menu-item#biosecuritate",
+        "menu-item#rozatoare",
+        "menu-item#contact"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+  
+    "logo#mobile": {
+      "props": {
+        "title": "Logo",
+        "href": "/",
+        "url": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590530549/vetro_shop_vjfnfo.png",
+        "width": "70"
+      }
+    }
+    
+  }

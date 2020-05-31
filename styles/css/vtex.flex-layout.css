@@ -22,3 +22,15 @@
 .flexColChild--dealspromo {
     height: 50%;
 }
+
+.flexRow--banneres {
+    padding-bottom: 2em;
+    background-color: #0e368a;
+}
+
+.flexCol--product-details {
+    padding: 5em;
+    border-radius: 10px;
+    background-color: #ced8ec;
+    margin-right: 2em;
+}

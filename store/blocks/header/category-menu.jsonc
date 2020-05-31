@@ -1,0 +1,250 @@
+{
+    "vtex.menu@2.x:menu#category-menu-externo": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "menu-item#depre", 
+        "menu-item#contact-header"
+        //, "menu-item#more"
+      ]
+    },
+    "menu-item#depre": {
+      "props": {
+        "id": "menu-item-depre",
+        "blockClass": "menu-important",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/depre-noi",
+          "noFollow": false,
+          "tagTitle": "Depre noi",
+          "text": "Depre noi"
+        }
+      }
+    },
+    "menu-item#recenzii": {
+      "props": {
+        "id": "menu-item-recenzii",
+        "blockClass": "menu-important",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Recenzii",
+          "text": "Recenzii"
+        }
+      }
+    },
+    "menu-item#contact-header": {
+      "props": {
+        "id": "menu-item-contact",
+        "blockClass": "menu-important",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Contact",
+          "text": "Contact"
+        }
+      }
+    },
+    "menu-item#more": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "blockClass": "menu-important",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "More",
+          "text": "More"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu#more"]
+    },
+    "vtex.menu@2.x:submenu#more": {
+      "props": {
+        "width": "100%"
+      },
+      "children": ["flex-layout.row#menu-more"]
+    },
+    "flex-layout.row#menu-more": {
+      "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"]
+    },
+    "flex-layout.col#menu-more-1": {
+      "children": ["vtex.menu@2.x:menu#more"]
+    },
+    "flex-layout.col#menu-more-2": {
+      "children": [
+        //"info-card#home"
+      ]
+    },
+    "vtex.menu@2.x:menu#more": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": ["menu-item#about-us"]
+    },
+    "menu-item#about-us": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/about-us",
+          "noFollow": true,
+          "tagTitle": "About us",
+          "text": "About us"
+        }
+      }
+    },
+    //categorias del sitio
+    "vtex.menu@2.x:menu#websites-category": {
+      "children": [
+        "menu-item#in-curand",
+        "menu-item#caini",
+        "menu-item#pisici",
+        "menu-item#pasari",
+        "menu-item#animale-ferma",
+        "menu-item#fitosanitare",
+        "menu-item#biosecuritate",
+        "menu-item#rozatoare"
+      ]
+    },
+    "menu-item#in-curand": {
+      "props": {
+        "id": "menu-item-in-curand",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/in-curand",
+          "noFollow": false,
+          "tagTitle": "In curand",
+          "text": "In curand"
+        }
+      }
+    },
+    "menu-item#caini": {
+      "props": {
+        "id": "menu-item-caini",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/caini",
+          "noFollow": false,
+          "tagTitle": "Caini",
+          "text": "Caini"
+        }
+      }
+    },
+    "menu-item#pisici": {
+      "props": {
+        "id": "menu-item-pisici",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/pisici",
+          "noFollow": false,
+          "tagTitle": "pisici",
+          "text": "Pisici"
+        }
+      }
+    },
+    "menu-item#pasari": {
+      "props": {
+        "id": "menu-item-pasari",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/pasari",
+          "noFollow": false,
+          "tagTitle": "Pasari",
+          "text": "Pasari"
+        }
+      }
+    },
+    "menu-item#animale-ferma": {
+      "props": {
+        "id": "menu-item-pasari",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/animale-ferma",
+          "noFollow": false,
+          "tagTitle": "Animale de Ferma",
+          "text": "Animale de Ferma"
+        }
+      }
+    },
+    "menu-item#fitosanitare": {
+      "props": {
+        "id": "menu-item-pasari",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/fitosanitare",
+          "noFollow": false,
+          "tagTitle": "Fitosanitare",
+          "text": "Fitosanitare"
+        }
+      }
+    },
+    "menu-item#biosecuritate": {
+      "props": {
+        "id": "menu-item-pasari",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/biosecuritate",
+          "noFollow": false,
+          "tagTitle": "Biosecuritate",
+          "text": "Biosecuritate"
+        }
+      }
+    },
+    "menu-item#rozatoare": {
+      "props": {
+        "id": "menu-item-rozatoare",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/rozatoare",
+          "noFollow": false,
+          "tagTitle": "Rozatoare",
+          "text": "Rozatoare"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu#rozatoare"] // Defining a submenu
+    },
+    "vtex.menu@2.x:submenu#rozatoare": {
+      "props": {
+        "width": "100%"
+      },
+      "children": ["vtex.menu@2.x:menu#submenurozatoare"]
+    },
+    "vtex.menu@2.x:menu#submenurozatoare": {
+      "children": ["menu-item#biosecuritate"]
+    }
+  }

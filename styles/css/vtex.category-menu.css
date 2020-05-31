@@ -1,0 +1,13 @@
+:global(.vtex-category-menu-2-x-departmentLink) {
+    color: #0e368a;
+    ;
+}
+
+:global(.vtex-category-menu-2-x-itemContainer) {
+    max-height: 25.875rem;
+}
+
+:global(.vtex-category-menu-2-x-firstLevelLink) {
+    color: #0e368a;
+    font-weight: bolder;
+}
