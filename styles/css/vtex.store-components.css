@@ -128,3 +128,7 @@
 :global(.vtex-store-components-3-x-logoLink) {
     margin-top: 1em;
 }
+
+.newsletter {
+    background-color: #9eb3df;
+}
