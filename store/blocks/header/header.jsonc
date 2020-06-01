@@ -19,7 +19,8 @@
     "category-menu": {
       "props": {
         "showAllDepartments": false,
-        "showSubcategories": true
+        "showSubcategories": true,
+        "menuDisposition": "left"
       }
     },
     "flex-layout.col#spacer": {
