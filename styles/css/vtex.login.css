@@ -19,13 +19,7 @@
     border: none;
 }
 
-:global(.vtex-login-2-x-container) :global(.vtex-button) {
-    background-color: #9eb3df;
-    color: #0e368a;
-    border-style: solid;
-    border-color: #9eb3df;
-}
-
+:global(.vtex-login-2-x-container) :global(.vtex-button),
 :global(.vtex-login-2-x-container) :global(.vtex-button):hover,
 :global(.vtex-login-2-x-container) :global(.vtex-button):focus,
 :global(.vtex-login-2-x-container) :global(.vtex-button):active {
