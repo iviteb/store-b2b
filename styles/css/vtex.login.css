@@ -3,6 +3,34 @@
     color: #0e368a;
 }
 
-:global(.vtex-login-2-x-accessCodeOptionBtn) {
-    background-color: #0e368a;
+:global(.vtex-login-2-x-button) :global(.vtex-button) {
+    width: 100%;
+    min-height: 2.5rem;
+    background: #b3253b;
+    color: white;
+    border: none;
+}
+
+:global(.vtex-login-2-x-button) :global(.vtex-button):hover {
+    width: 100%;
+    min-height: 2.5rem;
+    background: #0e368a;
+    color: white;
+    border: none;
+}
+
+:global(.vtex-login-2-x-container) :global(.vtex-button) {
+    background-color: #9eb3df;
+    color: #0e368a;
+    border-style: solid;
+    border-color: #9eb3df;
+}
+
+:global(.vtex-login-2-x-container) :global(.vtex-button):hover,
+:global(.vtex-login-2-x-container) :global(.vtex-button):focus,
+:global(.vtex-login-2-x-container) :global(.vtex-button):active {
+    background-color: #9eb3df;
+    color: #0e368a;
+    border-style: solid;
+    border-color: #9eb3df;
 }
