@@ -1,6 +1,6 @@
 {
   "vendor": "vtex",
-  "name": "minimumtheme",
+  "name": "themeb2bvetro",
   "version": "0.1.0",
   "builders": {
     "styles": "2.x",
@@ -45,7 +45,8 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.category-menu": "2.x"
+    "vtex.category-menu": "2.x",
+    "vtex.challenge-tp-condition": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
