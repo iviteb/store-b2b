@@ -1,5 +1,6 @@
 .infoCardContainer--vintage {
-    background-color: #EDCFD1;
+    /* background-color: #EDCFD1;*/
+    height: 500px;
     margin-bottom: 2px;
 }
 
@@ -13,6 +14,11 @@
     border-radius: 50%;
     transition: 1s ease;
 }*/
+
+.infoCardTextContainer--vintage {
+    margin-top: -280px;
+    width: 50em;
+}
 
 .infoCardContainer--promo {
     height: 10em;
