@@ -138,3 +138,19 @@
 .newsletter {
     background-color: #9eb3df;
 }
+
+.infoCardTextContainer--promocional {
+    width: 50%;
+    margin-bottom: 4em;
+}
+
+.infoCardCallActionContainer--promocional :global(.vtex-button) {
+    background: #9eb3df;
+    margin-bottom: 4em;
+    border: none;
+}
+
+.infoCardCallActionContainer--promocional :global(.vtex-button):hover {
+    background: #9eb3df;
+    border: none;
+}

@@ -9,6 +9,7 @@
       "flex-layout.row#prom2",
       "flex-layout.row#animale",
       "newsletter",
+      "info-card#banner-footer",
       "flex-layout.row#home"
       //"flex-layout.row#aboutmain"
     ],
@@ -202,6 +203,19 @@
       "callToActionUrl": "#",
       "textPosition": "center",
       "blockClass": "promo"
+    }
+  },
+  "info-card#banner-footer": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591246769/vetroB2B/3414586_qhsbxb.jpg",
+      "headline": "Ești medic veterinar? Fă-ți cont!",
+      "callToActionMode": "button",
+      "callToActionText": "CONT NOU",
+      "callToActionUrl": "/login",
+      "textAlignment": "left",
+      "blockClass": "promocional"
     }
   }
 }
