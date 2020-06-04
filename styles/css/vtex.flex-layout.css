@@ -34,3 +34,13 @@
     background-color: #ced8ec;
     margin-right: 2em;
 }
+
+.flexRowContent--banner-main-1,
+.flexRowContent--banner-main-2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.flexRowContent--banner-main-2 {
+    margin-top: none;
+}

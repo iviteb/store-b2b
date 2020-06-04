@@ -1,12 +1,12 @@
 {
   "store.home": {
     "blocks": [
-      "info-card#banner",
+      "flex-layout.row#banner-main-3",
+      "flex-layout.row#banner-main-4",
       "flex-layout.row#deals",
       "flex-layout.row#fitosani",
-      "rich-text#categorii",
-      "flex-layout.row#prom1",
-      "flex-layout.row#prom2",
+      "flex-layout.row#banner-main-1",
+      "flex-layout.row#banner-main-2",
       "flex-layout.row#animale",
       "newsletter",
       "info-card#banner-footer",
@@ -61,148 +61,101 @@
       "paddingRight": 5
     }
   },
-  "info-card#banner": {
-    "props": {
-      "isFullModeStyle": true,
-      "textPosition": "center",
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591156324/vetroB2B/mascotitas_snwvba.jpg",
-      "headline": "SUNTEM 100% OPERATIONALI",
-      "subhead": "Diviziile cpomerciale şi suport.",
-      "callToActionMode": "button",
-      "callToActionText": "PROFITAŢI DE REDUCERILE ONLINE!",
-      "callToActionUrl": "/Fitosanitare",
-      "textAlignment": "center",
-      "blockClass": "vintage"
-    }
-  },
-  "flex-layout.row#prom1": {
-    "children": ["flex-layout.col#prom1"],
-    "props": {
-      "marginTop": 2,
-      "marginBottom": 2
-    }
-  },
-  "flex-layout.col#prom1": {
-    "children": ["flex-layout.row#banner"],
-    "props": {
-      "paddingLeft": 5,
-      "paddingRight": 5
-    }
-  },
-  "flex-layout.row#banner": {
+  "flex-layout.row#banner-main-1":{
     "children": [
-      "info-card#promotii",
-      "info-card#medicamente",
-      "info-card#aparatura",
-      "info-card#echipamente"
+      "info-card#banner-1"
     ],
-    "props": {
-      "colGap": 5
-    }
-  },
-  "info-card#promotii": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114037/perroygato_mgzvtr.jpg",
-      "isFullModeStyle": true,
-      "callToActionText": "Promotii",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo"
-    }
-  },
-  "info-card#medicamente": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590113929/gatos_e4lyye.png",
-      "isFullModeStyle": true,
-      "callToActionText": "Medicamente",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo"
-    }
-  },
-  "info-card#aparatura": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198181/620159_1_esrmjv.jpg",
-      "isFullModeStyle": true,
-      "callToActionText": "Instrumentar si parafamaceutice",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo-largo"
-    }
-  },
-  "info-card#echipamente": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590547475/ysmv7tp3_5579887_20191003191919_q0elb4.jpg",
-      "isFullModeStyle": true,
-      "callToActionText": "Echimamente si accesorii diverse",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo-largo"
-    }
-  },
-  "flex-layout.row#prom2": {
-    "children": ["flex-layout.col#prom2"],
-    "props": {
+    "props":{
       "marginTop": 2,
-      "marginBottom": 5
+      "blockClass": "banner-main-1"
     }
   },
-  "flex-layout.col#prom2": {
-    "children": ["flex-layout.row#banner2"],
+  "info-card#banner-1": {
     "props": {
-      "paddingLeft": 5,
-      "paddingRight": 5
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591246184/vetroB2B/729709-PS0AN6-424_wauo2p.jpg",
+      "isFullModeStyle": true,
+      "headline": "Furaje,premixuri,aditivi <br> <br> <br> ",
+      "callToActionText": " Mai Mult",
+      "textPosition": "right",
+      "blockClass": "banner-1"
     }
   },
-  "flex-layout.row#banner2": {
+  "flex-layout.row#banner-main-2":{
     "children": [
-      "info-card#cosmetice",
-      "info-card#furaje",
-      "info-card#hrana",
-      "info-card#cheaguri"
+      "info-card#banner-2",
+      "info-card#banner-3"
     ],
-    "props": {
-      "colGap": 5
+    "props":{
+      "blockClass": "banner-main-2"
     }
   },
-  "info-card#cosmetice": {
+  "info-card#banner-2": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198507/procesionaria-del-pino-peligro-para-perros-perro-848x477x80xX_ojqk4j.jpg",
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307749/vetroB2B/3414635_pxsnli.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Cosmetice si igiena animala",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo-largo"
+      "headline": "Cheaguri",
+      "callToActionText": " Mai Mult",
+      "textPosition": "right",
+      "blockClass": "banner-2"
     }
   },
-  "info-card#furaje": {
+  "info-card#banner-3": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590114090/gatosperros1-kyXF--620x349_abc_m16uz2.jpg",
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307747/vetroB2B/3027345_curdov.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Furaje,premixuri,aditivi",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo-largo"
+      "headline": "Igiera Publica <br> <br> ",
+      "callToActionText": " Mai Mult",
+      "textPosition": "right",
+      "blockClass": "banner-1"
     }
   },
-  "info-card#hrana": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590198023/nutricion_perros_2_ufafnu.jpg",
-      "isFullModeStyle": true,
-      "callToActionText": "Hrana animale de companie",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo-largo"
+  
+  "flex-layout.row#banner-main-3":{
+    "children": [
+      "info-card#banner-4"
+    ],
+    "props":{
+      "marginTop": 2,
+      "blockClass": "banner-main-1"
     }
   },
-  "info-card#cheaguri": {
+  "info-card#banner-4": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/dgi2nmgsy/image/upload/v1590547723/funny-young-red-puppy-pomeranian-spitz-puppy-dog-Y74M8EC_c5ie4r.jpg",
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307766/vetroB2B/3027334_jwwu9u.jpg",
       "isFullModeStyle": true,
-      "callToActionText": "Cheaguri",
-      "callToActionUrl": "#",
-      "textPosition": "center",
-      "blockClass": "promo"
+      "headline": "Aparatura,instrumentar si parafarmaceutice <br> <br> <br>",
+      "callToActionText": " Mai Mult",
+      "textPosition": "right",
+      "blockClass": "banner-4"
+    }
+  },
+  "flex-layout.row#banner-main-4":{
+    "children": [
+      "info-card#banner-5",
+      "info-card#banner-6"
+    ],
+    "props":{
+      "blockClass": "banner-main-2"
+    }
+  },
+  "info-card#banner-5": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591310377/vetroB2B/adult-tan-and-white-french-bulldog-545063_fixebe.jpg",
+      "isFullModeStyle": true,
+      "headline": "<br> <br> <br> <br> <br> <br>Suplimente",
+      "callToActionText": " Mai Mult",
+      "textPosition": "right",
+      "blockClass": "banner-5"
+    }
+  },
+  "info-card#banner-6": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307772/vetroB2B/3176603_d8gnqh.jpg",
+      "isFullModeStyle": true,
+      "headline": " Echipamente si accesorii <br> diverse",
+      "callToActionText": " Mai Mult",
+      "textPosition": "right",
+      "blockClass": "banner-6"
     }
   },
   "info-card#banner-footer": {
