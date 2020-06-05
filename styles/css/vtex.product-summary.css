@@ -43,6 +43,101 @@
     border-radius: 0.25rem;
 }
 
-:global(.vtex-product-summary-2-x-priceContainer):last-child {
-    background-color: red;
+
+/*
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) {
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    transition: all ease 0.5s;
+    background: #16429e;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button)::after,
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button)::before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button)::before {
+    left: -48%;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button):hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #9c1d20;
+    border: none;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button):hover::after,
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button):hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button):hover::after {
+    right: 130%;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button):hover::before {
+    left: 130%;
+}*/
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) {
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    color: #9c1d20;
+    background: #ffffff;
+    border: 3px solid #16429e;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) ::after,
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) ::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) ::after {
+    top: 0;
+    left: 0;
+    border-top: 3px solid transparent;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) ::before {
+    bottom: 0;
+    right: 0;
+    border-bottom: 3px solid transparent;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) :hover {
+    color: #9c1d20;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) :hover::after,
+:global(.vtex-product-summary-2-x-clearLink) :global(.vtex-button) :hover::before {
+    width: 100%;
+    height: 100%;
+    border-color: #9c1d20;
 }
