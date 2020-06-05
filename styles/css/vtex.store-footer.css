@@ -14,3 +14,8 @@
     margin-top: 2em;
     background-color: #dee6f7;
 }
+
+.acceptedPaymentMethodContainer,
+.socialNetworksContainer {
+    justify-content: center;
+}

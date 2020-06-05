@@ -6,3 +6,11 @@
     color: #b3253b;
     font-weight: bolder;
 }
+
+.wrapper--depre-noi {
+    margin: 0 2em;
+}
+
+.container--social {
+    justify-content: center;
+}

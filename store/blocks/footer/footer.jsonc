@@ -25,7 +25,6 @@
     },
     "flex-layout.row#footer-1-desktop": {
       "children": [
-        "flex-layout.col#lineado",
         "flex-layout.col#footer-1-links",
         "rich-text#about",
         "flex-layout.row#social-foot"
@@ -65,6 +64,7 @@
     },
     "flex-layout.col#social-foot": {
       "children": [
+        "image",
         "rich-text#social-foot",
         "social-networks"
       ],
@@ -153,12 +153,6 @@
         "paddingBottom": 4
       },
       "children": ["vtex.menu@2.x:menu#footer-mobile"]
-    },
-    "rich-text#footer-mobile": {
-      "props": {
-        "text": "All stock and product photos are from photos.icons8.com",
-        "blockClass": "footer"
-      }
     }
   }
   

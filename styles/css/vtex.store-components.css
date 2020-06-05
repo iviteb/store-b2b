@@ -7,6 +7,20 @@
     color: black;
 }
 
+@media only screen and (max-width: 640px) {
+    .infoCardHeadline--banner-1,
+    .infoCardHeadline--banner-2,
+    .infoCardHeadline--banner-3,
+    .infoCardHeadline--banner-4,
+    .infoCardHeadline--banner-5,
+    .infoCardHeadline--banner-6 {
+        font-size: large;
+    }
+    .autoCompleteOuterContainer {
+        width: 80%;
+    }
+}
+
 
 /* style product */
 
@@ -44,7 +58,7 @@
 }
 
 .newsletter {
-    background-color: #9eb3df;
+    background-color: #2b5cc5;
 }
 
 .infoCardTextContainer--promocional {
@@ -61,4 +75,8 @@
 .infoCardCallActionContainer--promocional :global(.vtex-button):hover {
     background: #9eb3df;
     border: none;
+}
+
+.newsletter .label {
+    color: white;
 }

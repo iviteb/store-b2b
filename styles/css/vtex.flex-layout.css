@@ -44,3 +44,7 @@
 .flexRowContent--banner-main-2 {
     margin-top: none;
 }
+
+.flexRow--layout-drawer {
+    padding: 0 2em;
+}

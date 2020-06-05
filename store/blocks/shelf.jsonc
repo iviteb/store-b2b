@@ -11,7 +11,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Caini",
+        "titleText": "Promotii",
         "gap": "ph5"
       }
     }
@@ -29,7 +29,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Animale de ferma",
+        "titleText": "Medicamente",
         "gap": "ph5"
       }
     }

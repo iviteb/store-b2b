@@ -16,11 +16,12 @@
     "props": {
       "text": "**Despre noi** <br>*Vetro este o companie care activează în domeniul distribuției de medicamente veterinare, comercializând produse destinate proprietarilor de animale de rentă, de animale de companie și oferind servicii și consultanță adresate medicilor veterinari. Numărul de clienți unici deserviți este de aproximativ 1500, iar echipa este compusă din 50 de angajați şi colaboratori.*",
       "textAlignment": "LEFT",
-      "textPosition": "LEFT"
+      "textPosition": "LEFT",
+      "blockClass": "depre-noi"
     }
   },
   "flex-layout.col#lineado": {
-    "children": ["image", "rich-text#link"],
+    "children": ["image"],
     "props":{
       "blockClass": "lineado"
     }
