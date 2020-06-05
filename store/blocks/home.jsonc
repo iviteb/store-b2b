@@ -7,6 +7,7 @@
       "flex-layout.row#fitosani",
       "flex-layout.row#banner-main-1",
       "flex-layout.row#banner-main-2",
+      "flex-layout.row#banner-main-5",
       "flex-layout.row#animale",
       "newsletter",
       "info-card#banner-footer",
@@ -158,12 +159,31 @@
       "blockClass": "banner-6"
     }
   },
+  "flex-layout.row#banner-main-5":{
+    "children": [
+      "info-card#banner-7"
+    ],
+    "props":{
+      "marginTop": 0,
+      "blockClass": "banner-main-1"
+    }
+  },
+  "info-card#banner-7": {
+    "props": {
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332675/vetroB2B/3414639_jtz074.jpg",
+      "isFullModeStyle": true,
+      "headline": "<br> <br>Hrana animale de companie ",
+      "callToActionText": " Mai Mult",
+      "textPosition": "left",
+      "blockClass": "banner-7"
+    }
+  },
   "info-card#banner-footer": {
     "props": {
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591246769/vetroB2B/3414586_qhsbxb.jpg",
-      "headline": "Ești medic veterinar? Fă-ți cont!",
+      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332665/vetroB2B/3414620_tpf8sq.jpg",
+      "headline": "<br><br><br><br>Ești medic veterinar? Fă-ți cont!",
       "callToActionMode": "button",
       "callToActionText": "CONT NOU",
       "callToActionUrl": "/login",

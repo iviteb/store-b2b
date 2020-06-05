@@ -3,7 +3,8 @@
 .infoCardHeadline--banner-1,
 .infoCardHeadline--banner-2,
 .infoCardHeadline--banner-3,
-.infoCardHeadline--banner-4 {
+.infoCardHeadline--banner-4,
+.infoCardHeadline--banner-7 {
     color: black;
 }
 
@@ -13,7 +14,8 @@
     .infoCardHeadline--banner-3,
     .infoCardHeadline--banner-4,
     .infoCardHeadline--banner-5,
-    .infoCardHeadline--banner-6 {
+    .infoCardHeadline--banner-6,
+    .infoCardHeadline--banner-7 {
         font-size: large;
     }
     .autoCompleteOuterContainer {
@@ -67,18 +69,18 @@
 }
 
 .infoCardCallActionContainer--promocional :global(.vtex-button) {
-    background: #9eb3df;
+    background: #2b5cc5;
     margin-bottom: 4em;
     border: none;
 }
 
 .infoCardCallActionContainer--promocional :global(.vtex-button):hover {
-    background: #9eb3df;
+    background: #9c1d20;
     border: none;
 }
 
 .newsletter .label {
-    color: white;
+    color: black;
 }
 
 .shareButtons {
