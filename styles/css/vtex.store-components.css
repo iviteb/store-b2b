@@ -80,3 +80,13 @@
 .newsletter .label {
     color: white;
 }
+
+.shareButtons {
+    justify-content: center;
+}
+
+.shareLabel {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}

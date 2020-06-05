@@ -88,6 +88,111 @@
             "text": "Furaje, premixuri, aditivi"
           }
         }
+      },
+      "menu-item#hrana-animale":{
+        "props": {
+          "id": "menu-item-hrana-animale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#", //poner la direccion
+            "noFollow": false,
+            "tagTitle": "Hrana animale de companie",
+            "text": "Hrana animale de companie"
+          }
+        }
+      },
+      "menu-item#cheaguri":{
+        "props": {
+          "id": "menu-item-cheaguri",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#", //poner la direccion
+            "noFollow": false,
+            "tagTitle": "Cheaguri",
+            "text": "Cheaguri"
+          }
+        }
+      },
+      "menu-item#teste":{
+        "props": {
+          "id": "menu-item-teste",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#", //poner la direccion
+            "noFollow": false,
+            "tagTitle": "Teste de diagnostic",
+            "text": "Teste de diagnostic"
+          }
+        }
+      },
+      "menu-item#suplimente":{
+        "props": {
+          "id": "menu-item-suplimente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#", //poner la direccion
+            "noFollow": false,
+            "tagTitle": "Suplimente",
+            "text": "Suplimente"
+          }
+        }
+      },
+      "menu-item#aparatura":{
+        "props": {
+          "id": "menu-item-aparatura",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#", //poner la direccion
+            "noFollow": false,
+            "tagTitle": "Aparatura si accesorii",
+            "text": "Aparatura si accesorii"
+          }
+        }
+      },
+      "menu-item#igiera":{
+        "props": {
+          "id": "menu-item-igiera",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#", //poner la direccion
+            "noFollow": false,
+            "tagTitle": "Igiera Publica",
+            "text": "Igiera Publica"
+          }
+        }
+      },
+      "menu-item#ferme":{
+        "props": {
+          "id": "menu-item-ferme",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#", //poner la direccion
+            "noFollow": false,
+            "tagTitle": "Produse Ferme",
+            "text": "Produse Ferme"
+          }
+        }
       }
       
 }

@@ -176,9 +176,17 @@
       "children": [
         "menu-item#promotii",
         "menu-item#medicamente",
-        "menu-item#cosmetice",
         "menu-item#aparatura-parafarmaceutice",
-        "menu-item#echipamente"
+        "menu-item#echipamente",
+        "menu-item#cosmetice",
+        "menu-item#furaje",
+        "menu-item#hrana-animale",
+        "menu-item#cheaguri",
+        "menu-item#teste",
+        "menu-item#suplimente",
+        "menu-item#aparatura",
+        "menu-item#igiera",
+        "menu-item#ferme"
       ]
     }
   
