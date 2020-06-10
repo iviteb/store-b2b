@@ -1,8 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#banner-main-3",
-      "flex-layout.row#banner-main-4",
+      "list-context.image-list#demo",
+      //"flex-layout.row#banner-main-3",
+      //"flex-layout.row#banner-main-4",
       "flex-layout.row#deals",
       "flex-layout.row#fitosani",
       "flex-layout.row#banner-main-1",
@@ -21,6 +22,37 @@
   "challenge.trade-policy-condition": {
     "props": {
       "redirectPath": "/login"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": 450,
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332675/vetroB2B/3414639_jtz074.jpg",
+          "mobileImage": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332675/vetroB2B/3414639_jtz074.jpg"
+        },
+        {
+          "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307763/vetroB2B/3548052_g9brjm.jpg",
+          "mobileImage": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307763/vetroB2B/3548052_g9brjm.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
     }
   },
   "rich-text#categorii": {
