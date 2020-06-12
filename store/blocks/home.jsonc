@@ -49,6 +49,10 @@
         "tablet": 1,
         "phone": 1
       },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
       "infinite": true,
       "showNavigationArrows": "always",
       "showPaginationDots": "never",
