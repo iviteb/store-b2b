@@ -1,9 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      //"flex-layout.row#banner-main-3",
-      //"flex-layout.row#banner-main-4",
+      //"list-context.image-list#demo",
+      "flex-layout.row#banner-main-3",
+      "flex-layout.row#banner-main-4",
       "flex-layout.row#deals",
       "flex-layout.row#fitosani",
       "flex-layout.row#banner-main-1",
@@ -12,7 +12,8 @@
       "flex-layout.row#animale",
       "newsletter",
       "info-card#banner-footer",
-      "flex-layout.row#home"
+      "flex-layout.row#home",
+      "__fold__"
       //"flex-layout.row#aboutmain"
     ],
     "parent": {
@@ -24,20 +25,19 @@
       "redirectPath": "/login"
     }
   },
-  "list-context.image-list#demo": {
-    "children": [
-      "slider-layout#demo-images"
-    ],
+  "list-context.image-list#demo-1": {
+    "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 450,
+      "height": 200,
+      "width": 600,
       "images": [
         {
-          "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332675/vetroB2B/3414639_jtz074.jpg",
-          "mobileImage": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332675/vetroB2B/3414639_jtz074.jpg"
+          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura1_b2b___7a65b8336f042843ab4925490b491f89.gif",
+          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura1_b2b___7a65b8336f042843ab4925490b491f89.gif"
         },
         {
-          "image": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307763/vetroB2B/3548052_g9brjm.jpg",
-          "mobileImage": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307763/vetroB2B/3548052_g9brjm.jpg"
+          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura2_b2b___4318225d3c5521a4b3855ceb602ece6f.gif",
+          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura2_b2b___4318225d3c5521a4b3855ceb602ece6f.gif"
         }
       ]
     }
@@ -55,13 +55,62 @@
       "blockClass": "carousel"
     }
   },
-  "rich-text#categorii": {
+  "list-context.image-list#demo-2": {
+    "children": ["slider-layout#demo-images-2"],
     "props": {
-      "text": "Categorii",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-3",
-      "blockClass": "categories"
+      "height": 450,
+      "images": [
+        {
+          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura3_b2b___b8b51a3a3720798cb803b4ef65cf7854.gif",
+          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura3_b2b___b8b51a3a3720798cb803b4ef65cf7854.gif"
+        },
+        {
+          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura4_b2b___404a73072a15ad81ea91fd9496c12171.gif",
+          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura4_b2b___404a73072a15ad81ea91fd9496c12171.gif"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    }
+  },
+  "list-context.image-list#demo-3": {
+    "children": ["slider-layout#demo-images-3"],
+    "props": {
+      "height": 450,
+      "images": [
+        {
+          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura6_b2b___31e27fb87c4d265675a75bd055002020.gif",
+          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura6_b2b___31e27fb87c4d265675a75bd055002020.gif"
+        },
+        {
+          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura5_b2b___a11bc6f95cd6383a4e86a58210d2997a.gif",
+          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura5_b2b___a11bc6f95cd6383a4e86a58210d2997a.gif"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images-3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
     }
   },
   "flex-layout.row#animale": {
@@ -94,18 +143,16 @@
       "paddingRight": 5
     }
   },
-  "flex-layout.row#banner-main-1":{
-    "children": [
-      "info-card#banner-1"
-    ],
-    "props":{
+  "flex-layout.row#banner-main-1": {
+    "children": ["info-card#banner-1"],
+    "props": {
       "marginTop": 2,
       "blockClass": "banner-main-1"
     }
   },
   "info-card#banner-1": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591246184/vetroB2B/729709-PS0AN6-424_wauo2p.jpg",
+      "imageUrl": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/info-card-1_b2b___85c6ffd050c1232f7494bd3f6d7df7d8.gif",
       "isFullModeStyle": true,
       "headline": "Furaje,premixuri,aditivi <br> <br> <br> ",
       "callToActionText": " Mai Mult",
@@ -113,18 +160,15 @@
       "blockClass": "banner-1"
     }
   },
-  "flex-layout.row#banner-main-2":{
-    "children": [
-      "info-card#banner-2",
-      "info-card#banner-3"
-    ],
-    "props":{
+  "flex-layout.row#banner-main-2": {
+    "children": ["info-card#banner-2", "info-card#banner-3"],
+    "props": {
       "blockClass": "banner-main-2"
     }
   },
   "info-card#banner-2": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307749/vetroB2B/3414635_pxsnli.jpg",
+      "imageUrl": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/info-card-2_b2b___dd418293fa3a3eea44bed1e2a7fbdc10.gif",
       "isFullModeStyle": true,
       "headline": "Cheaguri",
       "callToActionText": " Mai Mult",
@@ -134,7 +178,7 @@
   },
   "info-card#banner-3": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307747/vetroB2B/3027345_curdov.jpg",
+      "imageUrl": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/info-card-3_b2b___2116ce3357221b95c76f624435b81127.gif",
       "isFullModeStyle": true,
       "headline": "Igiera Publica <br> <br> ",
       "callToActionText": " Mai Mult",
@@ -142,16 +186,15 @@
       "blockClass": "banner-1"
     }
   },
-  
-  "flex-layout.row#banner-main-3":{
-    "children": [
-      "info-card#banner-4"
-    ],
-    "props":{
+
+  "flex-layout.row#banner-main-3": {
+    "children": ["list-context.image-list#demo-1"],
+    "props": {
       "marginTop": 2,
       "blockClass": "banner-main-1"
     }
   },
+  /*
   "info-card#banner-4": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307766/vetroB2B/3027334_jwwu9u.jpg",
@@ -161,16 +204,18 @@
       "textPosition": "right",
       "blockClass": "banner-4"
     }
-  },
-  "flex-layout.row#banner-main-4":{
+  },*/
+  "flex-layout.row#banner-main-4": {
     "children": [
-      "info-card#banner-5",
-      "info-card#banner-6"
+      //"info-card#banner-5",
+      "list-context.image-list#demo-2",
+      "list-context.image-list#demo-3"
     ],
-    "props":{
+    "props": {
       "blockClass": "banner-main-2"
     }
   },
+  /*
   "info-card#banner-5": {
     "props": {
       "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591310377/vetroB2B/adult-tan-and-white-french-bulldog-545063_fixebe.jpg",
@@ -190,19 +235,17 @@
       "textPosition": "right",
       "blockClass": "banner-6"
     }
-  },
-  "flex-layout.row#banner-main-5":{
-    "children": [
-      "info-card#banner-7"
-    ],
-    "props":{
+  },*/
+  "flex-layout.row#banner-main-5": {
+    "children": ["info-card#banner-7"],
+    "props": {
       "marginTop": 0,
       "blockClass": "banner-main-1"
     }
   },
   "info-card#banner-7": {
     "props": {
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332675/vetroB2B/3414639_jtz074.jpg",
+      "imageUrl": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/info-card-4_b2b___aa67a5145d70b1ce7d9bb4cdfd548536.gif",
       "isFullModeStyle": true,
       "headline": "<br> <br>Hrana animale de companie ",
       "callToActionText": " Mai Mult",
@@ -214,7 +257,7 @@
     "props": {
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591332665/vetroB2B/3414620_tpf8sq.jpg",
+      "imageUrl": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/info-card-5_b2b___b60892c17a18a012300179749da70314.gif",
       "headline": "<br><br><br><br>Ești medic veterinar? Fă-ți cont!",
       "callToActionMode": "button",
       "callToActionText": "CONT NOU",
