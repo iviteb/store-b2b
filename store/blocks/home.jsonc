@@ -50,7 +50,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "blockClass": "carousel"
     }
@@ -79,7 +79,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "blockClass": "carousel"
     }
@@ -108,7 +108,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "blockClass": "carousel"
     }
