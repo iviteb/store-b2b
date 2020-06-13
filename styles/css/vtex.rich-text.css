@@ -14,3 +14,8 @@
 .container--social {
     justify-content: center;
 }
+
+.paragraph--branduri-text {
+    color: #0e368a;
+    margin-bottom: 0;
+}
