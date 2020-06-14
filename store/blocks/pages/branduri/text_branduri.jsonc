@@ -278,5 +278,285 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
+  },
+  "rich-text#branduri-col-row-1-9": {
+    "props": {
+      "text": "**EUROTECH**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-9": {
+    "props": {
+      "text": "**Exclusion**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-9": {
+    "props": {
+      "text": "**FORTIS CONSULT**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-9": {
+    "props": {
+      "text": "**Fresenius Kabi**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-9": {
+    "props": {
+      "text": "**FROMASE**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-10": {
+    "props": {
+      "text": "**G.G.T FOOD ADDITIVES**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-10": {
+    "props": {
+      "text": "**GAMMA VET**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-10": {
+    "props": {
+      "text": "**GolashPharma**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-10": {
+    "props": {
+      "text": "**ICF Prodotti Veterinari**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-10": {
+    "props": {
+      "text": "**IDT Biologika**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-11": {
+    "props": {
+      "text": "**Inmmunovet**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-11": {
+    "props": {
+      "text": "**Industria Italiana Integratori Trei**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-11": {
+    "props": {
+      "text": "**Innovet**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-11": {
+    "props": {
+      "text": "**Intermag**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-11": {
+    "props": {
+      "text": "**Intervet**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-12": {
+    "props": {
+      "text": "**IRIALEX MIXT**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-12": {
+    "props": {
+      "text": "**Janssen Pharmaceutica**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-12": {
+    "props": {
+      "text": "**KELLA**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-12": {
+    "props": {
+      "text": "**Kepro**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-12": {
+    "props": {
+      "text": "**KEPRO HOLLAND**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-13": {
+    "props": {
+      "text": "**Kilco**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-13": {
+    "props": {
+      "text": "**Kollant S.A**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-13": {
+    "props": {
+      "text": "**LaVet Pharmaceuticals**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-13": {
+    "props": {
+      "text": "**Lintbells**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-13": {
+    "props": {
+      "text": "**Makhtesim Agan**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-14": {
+    "props": {
+      "text": "**MARAVET SRL**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-14": {
+    "props": {
+      "text": "**Merial**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-14": {
+    "props": {
+      "text": "**Monge**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-14": {
+    "props": {
+      "text": "**MonteroVet**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-14": {
+    "props": {
+      "text": "**MSD COMPANION ANIMALS**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-15": {
+    "props": {
+      "text": "**MSD POULTRY**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-15": {
+    "props": {
+      "text": "**MSD RUMANANTS**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-15": {
+    "props": {
+      "text": "**MSD SWINE**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-15": {
+    "props": {
+      "text": "**OLMIX**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-15": {
+    "props": {
+      "text": "**OVER GROUP**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-16": {
+    "props": {
+      "text": "**PAMAS**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-16": {
+    "props": {
+      "text": "**PANVET**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-16": {
+    "props": {
+      "text": "**PARAFARMACEUTICE**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-16": {
+    "props": {
+      "text": "**Phylaxia Pharma**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-16": {
+    "props": {
+      "text": "**PRIMA**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   }
 }
