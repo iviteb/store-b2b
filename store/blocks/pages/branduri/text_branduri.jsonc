@@ -558,5 +558,180 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
+  },
+  "rich-text#branduri-col-row-1-17": {
+    "props": {
+      "text": "**PRODUSE AGRAPLAN**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-17": {
+    "props": {
+      "text": "**Promedivet**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-17": {
+    "props": {
+      "text": "**REPOXIM SRL**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-17": {
+    "props": {
+      "text": "**Richter Pharma**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-17": {
+    "props": {
+      "text": "**Romvac**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-18": {
+    "props": {
+      "text": "**RovalMed**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-18": {
+    "props": {
+      "text": "**Sanofi Aventis**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-18": {
+    "props": {
+      "text": "**SCHIPPERS**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-18": {
+    "props": {
+      "text": "**SOLAREX**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-18": {
+    "props": {
+      "text": "**SOLVIT**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-19": {
+    "props": {
+      "text": "**SP Veterinaria**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-19": {
+    "props": {
+      "text": "**Stangest**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-19": {
+    "props": {
+      "text": "**SUPERFARMLAND**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-19": {
+    "props": {
+      "text": "**Syva Laboratorios**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-19": {
+    "props": {
+      "text": "**Terapia Ranbaxy**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-20": {
+    "props": {
+      "text": "**TESO SPEC**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-20": {
+    "props": {
+      "text": "**TZMO**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-20": {
+    "props": {
+      "text": "**VARAT**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-20": {
+    "props": {
+      "text": "**VET DIAGNOSTIC SRL**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-20": {
+    "props": {
+      "text": "**VET EXPERT**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-1-21": {
+    "props": {
+      "text": "**VETERIN DISTRIBUTION**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-2-21": {
+    "props": {
+      "text": "**VMD**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-3-21": {
+    "props": {
+      "text": "**WAHL**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-4-21": {
+    "props": {
+      "text": "**Zentiva**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#branduri-col-row-5-21": {
+    "props": {
+      "text": "**Zoetis**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   }
 }

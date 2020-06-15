@@ -638,5 +638,205 @@
       "paddingRight": 5,
       "blockClass": "column-branduri"
     }
+  },
+  "flex-layout.col#branduri-col-row-1-17": {
+    "children": ["image#branduri-1-17", "rich-text#branduri-col-row-1-17"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-2-17": {
+    "children": ["image#branduri-2-17", "rich-text#branduri-col-row-2-17"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-3-17": {
+    "children": ["image#branduri-3-17", "rich-text#branduri-col-row-3-17"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-4-17": {
+    "children": ["image#branduri-4-17", "rich-text#branduri-col-row-4-17"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-5-17": {
+    "children": ["image#branduri-5-17", "rich-text#branduri-col-row-5-17"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-1-18": {
+    "children": ["image#branduri-1-18", "rich-text#branduri-col-row-1-18"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-2-18": {
+    "children": ["image#branduri-2-18", "rich-text#branduri-col-row-2-18"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-3-18": {
+    "children": ["image#branduri-3-18", "rich-text#branduri-col-row-3-18"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-4-18": {
+    "children": ["image#branduri-4-18", "rich-text#branduri-col-row-4-18"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-5-18": {
+    "children": ["image#branduri-5-18", "rich-text#branduri-col-row-5-18"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-1-19": {
+    "children": ["image#branduri-1-19", "rich-text#branduri-col-row-1-19"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-2-19": {
+    "children": ["image#branduri-2-19", "rich-text#branduri-col-row-2-19"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-3-19": {
+    "children": ["image#branduri-3-19", "rich-text#branduri-col-row-3-19"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-4-19": {
+    "children": ["image#branduri-4-19", "rich-text#branduri-col-row-4-19"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-5-19": {
+    "children": ["image#branduri-5-19", "rich-text#branduri-col-row-5-19"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-1-20": {
+    "children": ["image#branduri-1-20", "rich-text#branduri-col-row-1-20"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-2-20": {
+    "children": ["image#branduri-2-20", "rich-text#branduri-col-row-2-20"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-3-20": {
+    "children": ["image#branduri-3-20", "rich-text#branduri-col-row-3-20"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-4-20": {
+    "children": ["image#branduri-4-20", "rich-text#branduri-col-row-4-20"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-5-20": {
+    "children": ["image#branduri-5-20", "rich-text#branduri-col-row-5-20"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-1-21": {
+    "children": ["image#branduri-1-21", "rich-text#branduri-col-row-1-21"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-2-21": {
+    "children": ["image#branduri-2-21", "rich-text#branduri-col-row-2-21"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-3-21": {
+    "children": ["image#branduri-3-21", "rich-text#branduri-col-row-3-21"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-4-21": {
+    "children": ["image#branduri-4-21", "rich-text#branduri-col-row-4-21"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.col#branduri-col-row-5-21": {
+    "children": ["image#branduri-5-21", "rich-text#branduri-col-row-5-21"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
   }
 }

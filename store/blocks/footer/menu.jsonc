@@ -1,194 +1,188 @@
 {
-    "menu-item#produse":{
-      "props": {
-        "id": "menu-item-produse",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner la direccion
-          "noFollow": false,
-          "tagTitle": "Produse",
-          "text": "Produse"
-        }
+  "menu-item#produse": {
+    "props": {
+      "id": "menu-item-produse",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Produse",
+        "text": "Produse"
       }
-    },
-    "menu-item#branduri":{
-      "props": {
-        "id": "menu-item-branduri",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner la direccion
-          "noFollow": false,
-          "tagTitle": "Branduri",
-          "text": "Branduri"
-        }
-      }
-    },
-    "menu-item#info-center":{
-      "props": {
-        "id": "menu-item-infocenter",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner la direccion
-          "noFollow": false,
-          "tagTitle": "Info-center",
-          "text": "Info-center"
-        }
-      }
-    },
-    "menu-item#contact":{
-      "props": {
-        "id": "menu-item-contact",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner la direccion
-          "noFollow": false,
-          "tagTitle": "Contact",
-          "text": "Contact"
-        }
-      }
-    },
-    "menu-item#termeni-si":{
-      "props": {
-        "id": "menu-item-termeni-si",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner la direccion
-          "noFollow": false,
-          "tagTitle": "Termeni si",
-          "text": "Termeni si"
-        }
-      }
-    },
-    "menu-item#conditii":{
-      "props": {
-        "id": "menu-item-conditii",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner la direccion
-          "noFollow": false,
-          "tagTitle": "conditii",
-          "text": "Conditii"
-        }
-      }
-    },
-    "menu-item#sitemap":{
-      "props": {
-        "id": "menu-item-sitemap",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner la direccion
-          "noFollow": false,
-          "tagTitle": "sitemap",
-          "text": "sitemap"
-        }
-      }
-    },
-    "vtex.menu@2.x:menu#footer-produse": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "flex-layout.row#footer-links"
-      ]
-    },
-    "flex-layout.row#footer-links":{
-      "children":[
-        "flex-layout.col#footer-links-1",
-        "flex-layout.col#footer-links-2"
-      ]
-    },
-    "flex-layout.col#footer-links-1":{
-      "children":[
-        "menu-item#produse",
-        "menu-item#branduri",
-        "menu-item#promotii",
-        "menu-item#info-center"
-      ],
-      "props":{
-        "paddingLeft": 5
-      }
-    },
-    "flex-layout.col#footer-links-2":{
-      "children":[
-        "menu-item#contact",
-        "menu-item#termeni-si",
-        "menu-item#conditii",
-        "menu-item#sitemap"
-      ],
-      "props":{
-        "paddingRight": 5
-      }
-    },
-  
-    "vtex.menu@2.x:menu#footer-mobile": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#produse-mobile"
-      ]
-    },
-    "menu-item#produse-mobile": {
-      "props": {
-        "id": "menu-item-category-produse",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#", //poner url
-          "noFollow": true,
-          "tagTitle": "Produse",
-          "text": "Produse"
-        }
-      },
-      "blocks": ["vtex.menu@2.x:submenu.accordion#produse"]
-    },
-    "vtex.menu@2.x:submenu.accordion#produse": {
-      "children": ["vtex.menu@2.x:menu#produse-accordion"]
-    },
-  
-    "vtex.menu@2.x:menu#produse-accordion": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#promotii",
-        "menu-item#medicamente",
-        "menu-item#aparatura-parafarmaceutice",
-        "menu-item#echipamente",
-        "menu-item#cosmetice",
-        "menu-item#furaje",
-        "menu-item#hrana-animale",
-        "menu-item#cheaguri",
-        "menu-item#teste",
-        "menu-item#suplimente",
-        "menu-item#aparatura",
-        "menu-item#igiera",
-        "menu-item#ferme"
-      ]
     }
-  
+  },
+  "menu-item#branduri": {
+    "props": {
+      "id": "menu-item-branduri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/branduri", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Branduri",
+        "text": "Branduri"
+      }
+    }
+  },
+  "menu-item#info-center": {
+    "props": {
+      "id": "menu-item-infocenter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Info-center",
+        "text": "Info-center"
+      }
+    }
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Contact",
+        "text": "Contact"
+      }
+    }
+  },
+  "menu-item#termeni-si": {
+    "props": {
+      "id": "menu-item-termeni-si",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Termeni si",
+        "text": "Termeni si"
+      }
+    }
+  },
+  "menu-item#conditii": {
+    "props": {
+      "id": "menu-item-conditii",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "conditii",
+        "text": "Conditii"
+      }
+    }
+  },
+  "menu-item#sitemap": {
+    "props": {
+      "id": "menu-item-sitemap",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "sitemap",
+        "text": "sitemap"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-produse": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["flex-layout.row#footer-links"]
+  },
+  "flex-layout.row#footer-links": {
+    "children": [
+      "flex-layout.col#footer-links-1",
+      "flex-layout.col#footer-links-2"
+    ]
+  },
+  "flex-layout.col#footer-links-1": {
+    "children": [
+      "menu-item#produse",
+      "menu-item#branduri",
+      "menu-item#promotii",
+      "menu-item#info-center"
+    ],
+    "props": {
+      "paddingLeft": 5
+    }
+  },
+  "flex-layout.col#footer-links-2": {
+    "children": [
+      "menu-item#contact",
+      "menu-item#termeni-si",
+      "menu-item#conditii",
+      "menu-item#sitemap"
+    ],
+    "props": {
+      "paddingRight": 5
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#produse-mobile"]
+  },
+  "menu-item#produse-mobile": {
+    "props": {
+      "id": "menu-item-category-produse",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner url
+        "noFollow": true,
+        "tagTitle": "Produse",
+        "text": "Produse"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#produse"]
+  },
+  "vtex.menu@2.x:submenu.accordion#produse": {
+    "children": ["vtex.menu@2.x:menu#produse-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#produse-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#promotii",
+      "menu-item#medicamente",
+      "menu-item#aparatura-parafarmaceutice",
+      "menu-item#echipamente",
+      "menu-item#cosmetice",
+      "menu-item#furaje",
+      "menu-item#hrana-animale",
+      "menu-item#cheaguri",
+      "menu-item#teste",
+      "menu-item#suplimente",
+      "menu-item#aparatura",
+      "menu-item#igiera",
+      "menu-item#ferme"
+    ]
   }
-  
+}
