@@ -45,9 +45,21 @@
 }
 
 .productNameContainer {
-    color: #3f3f40;
+    color: black;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.productNameContainer--product-name {
+    text-align: center;
+}
+
+.price_sellingPrice--product-price {
+    color: #c9485b;
+}
+
+.price_sellingPriceContainer--product-price {
+    text-align: center;
 }
 
 .imageElement--dealspromo {

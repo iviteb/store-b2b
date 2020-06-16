@@ -1,0 +1,12 @@
+.arrow {
+    color: #0A43A3;
+}
+
+:global(.vtex-breadcrumb-1-x-link) {
+    color: #0A43A3;
+}
+
+:global(.vtex-breadcrumb-1-x-term) {
+    color: #9c1d20;
+    font-weight: bold;
+}

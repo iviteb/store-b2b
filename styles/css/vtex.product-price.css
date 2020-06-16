@@ -1,0 +1,60 @@
+.sellingPrice--sellingPriceValue {
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: medium;
+    color: #b2243a;
+    margin-bottom: 1em;
+}
+
+.sellingPriceValue--sellingPriceValueProduct {
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-weight: bold;
+    font-size: 25px;
+    color: #b2243a;
+}
+
+.sellingPrice--sellingPriceWithTax {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: medium;
+    color: #2b5cc5;
+    margin-top: .2em;
+    margin-bottom: 1em;
+}
+
+.sellingPrice--taxPercentage {
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #b2243a;
+    color: white;
+    padding: 0.2em 0;
+    border-radius: 3rem;
+    text-align: center;
+    font-weight: medium;
+    margin-bottom: 1em;
+}
+
+.sellingPrice--taxPercentageProduct {
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #b2243a;
+    color: white;
+    padding: 0.2em 0;
+    border-radius: 3rem;
+    text-align: center;
+    font-weight: medium;
+}
+
+.sellingPrice--sellingPriceWithTaxProduct {
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #2b5cc5;
+}

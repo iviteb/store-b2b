@@ -29,8 +29,40 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-summary-price",
+      //"product-summary-price",
+      //adicional para price
+      //"product-list-price",
+      "product-selling-price#sellingPriceValue",
+      "flex-layout.row#selling-price",
+      //"product-selling-price#sellingPriceWithTax",
+      //"product-selling-price#taxPercentage",
+      //"product-selling-price-range",
+      //"product-price-savings",
+      //"product-installments",
+      //termina la agregacion
       "add-to-cart-button"
     ]
+  },
+
+  "flex-layout.row#selling-price": {
+    "children": [
+      "product-selling-price#sellingPriceWithTax",
+      "product-selling-price#taxPercentage"
+    ]
+  },
+  "product-selling-price#sellingPriceValue": {
+    "props": {
+      "blockClass": "sellingPriceValue"
+    }
+  },
+  "product-selling-price#sellingPriceWithTax": {
+    "props": {
+      "blockClass": "sellingPriceWithTax"
+    }
+  },
+  "product-selling-price#taxPercentage": {
+    "props": {
+      "blockClass": "taxPercentage"
+    }
   }
 }

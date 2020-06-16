@@ -12,11 +12,9 @@
     },
     "children": ["flex-layout.col#product-breadcrumb"]
   },
-  "flex-layout.col#product-breadcrumb":{
-    "children":[
-      "breadcrumb"
-    ],
-    "props":{
+  "flex-layout.col#product-breadcrumb": {
+    "children": ["breadcrumb"],
+    "props": {
       "paddingLeft": 5
     }
   },
@@ -34,7 +32,10 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#product-image", "flex-layout.col#product-right"]
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#product-right"
+    ]
   },
   "flex-layout.col#product-image": {
     "props": {
@@ -53,13 +54,15 @@
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
-      "paddingRight":5,
+      "paddingRight": 5,
       "blockClass": "product-details"
     },
     "children": [
       "product-name",
       "product-rating-summary",
-      "product-price#product-details",
+      //"product-price#product-details",
+      "flex-layout.row#sellingPriceValueProduct",
+      "flex-layout.row#selling-price-product",
       "product-separator",
       "sku-selector",
       "product-quantity",
@@ -70,10 +73,54 @@
       "share#default"
     ]
   },
+  "product-name": {
+    "props": {
+      "blockClass": "product-name"
+    }
+  },
+  "flex-layout.row#sellingPriceValueProduct": {
+    "children": ["product-selling-price#sellingPriceValueProduct"],
+    "props": {
+      "blockClass": "sellingPriceValue"
+    }
+  },
+  "flex-layout.row#selling-price-product": {
+    "children": [
+      "product-selling-price#sellingPriceWithTaxProduct",
+      "product-selling-price#taxPercentageProduct"
+    ],
+    "props": {
+      "blockClass": "selling-price-product"
+    }
+  },
+  "product-selling-price#sellingPriceValueProduct": {
+    "props": {
+      "blockClass": "sellingPriceValueProduct"
+    }
+  },
+  "product-selling-price#sellingPriceWithTaxProduct": {
+    "props": {
+      "blockClass": "sellingPriceWithTaxProduct"
+    }
+  },
+  "product-selling-price#taxPercentageProduct": {
+    "props": {
+      "blockClass": "taxPercentageProduct"
+    }
+  },
   "product-price#product-details": {
     "props": {
       "showInstallments": true,
-      "showSavings": true
+      "showSavings": true,
+      "blockClass": "product-price"
+      /*
+      "showListPrice": true,
+      "showDiscountValue": true,
+      "showLabels": true,
+      "labelSellingPrice": "Price Sell",
+      "labelListPrice": "List Price",
+      "showListPriceRange": true,
+      "showSellingPriceRange": true*/
     }
   },
   "flex-layout.row#buy-button": {
