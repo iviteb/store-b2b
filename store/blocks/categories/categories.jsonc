@@ -1,198 +1,229 @@
 {
-    "menu-item#promotii":{
-        "props": {
-          "id": "menu-item-promotii",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Promotii",
-            "text": "Promotii"
-          }
-        }
-      },
-      "menu-item#medicamente":{
-        "props": {
-          "id": "menu-item-medicamente",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Medicamente",
-            "text": "Medicamente"
-          }
-        }
-      },
-      "menu-item#aparatura-parafarmaceutice":{
-        "props": {
-          "id": "menu-item-aparatura-parafarmaceutice",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Aparatura, Parafarmaceutice",
-            "text": "Aparatura, Parafarmaceutice"
-          }
-        }
-      },
-      "menu-item#echipamente":{
-        "props": {
-          "id": "menu-item-echipamente",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Echipamente si accesorii diverse",
-            "text": "Echipamente si accesorii diverse"
-          }
-        }
-      },
-      "menu-item#cosmetice":{
-        "props": {
-          "id": "menu-item-cosmetice",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Cosmetice si igiera animala",
-            "text": "Cosmetice si igiera animala"
-          }
-        }
-      },
-      "menu-item#furaje":{
-        "props": {
-          "id": "menu-item-furaje",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Furaje, premixuri, aditivi ",
-            "text": "Furaje, premixuri, aditivi"
-          }
-        }
-      },
-      "menu-item#hrana-animale":{
-        "props": {
-          "id": "menu-item-hrana-animale",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Hrana animale de companie",
-            "text": "Hrana animale de companie"
-          }
-        }
-      },
-      "menu-item#cheaguri":{
-        "props": {
-          "id": "menu-item-cheaguri",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Cheaguri",
-            "text": "Cheaguri"
-          }
-        }
-      },
-      "menu-item#teste":{
-        "props": {
-          "id": "menu-item-teste",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Teste de diagnostic",
-            "text": "Teste de diagnostic"
-          }
-        }
-      },
-      "menu-item#suplimente":{
-        "props": {
-          "id": "menu-item-suplimente",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Suplimente",
-            "text": "Suplimente"
-          }
-        }
-      },
-      "menu-item#aparatura":{
-        "props": {
-          "id": "menu-item-aparatura",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Aparatura si accesorii",
-            "text": "Aparatura si accesorii"
-          }
-        }
-      },
-      "menu-item#igiera":{
-        "props": {
-          "id": "menu-item-igiera",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Igiera Publica",
-            "text": "Igiera Publica"
-          }
-        }
-      },
-      "menu-item#ferme":{
-        "props": {
-          "id": "menu-item-ferme",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#", //poner la direccion
-            "noFollow": false,
-            "tagTitle": "Produse Ferme",
-            "text": "Produse Ferme"
-          }
-        }
+  "menu-item#branduri-header": {
+    "props": {
+      "id": "menu-item-branduri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "branduri",
+      "itemProps": {
+        "type": "internal",
+        "href": "/branduri", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Branduri",
+        "text": "Branduri"
       }
-      
+    }
+  },
+  "menu-item#branduri-header-pequeño": {
+    "props": {
+      "id": "menu-item-branduri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "branduri",
+      "itemProps": {
+        "type": "internal",
+        "href": "/branduri", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Branduri",
+        "text": "Branduri"
+      }
+    }
+  },
+  "menu-item#promotii": {
+    "props": {
+      "id": "menu-item-promotii",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Promotii",
+        "text": "Promotii"
+      }
+    }
+  },
+  "menu-item#medicamente": {
+    "props": {
+      "id": "menu-item-medicamente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Medicamente",
+        "text": "Medicamente"
+      }
+    }
+  },
+  "menu-item#aparatura-parafarmaceutice": {
+    "props": {
+      "id": "menu-item-aparatura-parafarmaceutice",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Aparatura, Parafarmaceutice",
+        "text": "Aparatura, Parafarmaceutice"
+      }
+    }
+  },
+  "menu-item#echipamente": {
+    "props": {
+      "id": "menu-item-echipamente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Echipamente si accesorii diverse",
+        "text": "Echipamente si accesorii diverse"
+      }
+    }
+  },
+  "menu-item#cosmetice": {
+    "props": {
+      "id": "menu-item-cosmetice",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Cosmetice si igiera animala",
+        "text": "Cosmetice si igiera animala"
+      }
+    }
+  },
+  "menu-item#furaje": {
+    "props": {
+      "id": "menu-item-furaje",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Furaje, premixuri, aditivi ",
+        "text": "Furaje, premixuri, aditivi"
+      }
+    }
+  },
+  "menu-item#hrana-animale": {
+    "props": {
+      "id": "menu-item-hrana-animale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Hrana animale de companie",
+        "text": "Hrana animale de companie"
+      }
+    }
+  },
+  "menu-item#cheaguri": {
+    "props": {
+      "id": "menu-item-cheaguri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Cheaguri",
+        "text": "Cheaguri"
+      }
+    }
+  },
+  "menu-item#teste": {
+    "props": {
+      "id": "menu-item-teste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Teste de diagnostic",
+        "text": "Teste de diagnostic"
+      }
+    }
+  },
+  "menu-item#suplimente": {
+    "props": {
+      "id": "menu-item-suplimente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Suplimente",
+        "text": "Suplimente"
+      }
+    }
+  },
+  "menu-item#aparatura": {
+    "props": {
+      "id": "menu-item-aparatura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Aparatura si accesorii",
+        "text": "Aparatura si accesorii"
+      }
+    }
+  },
+  "menu-item#igiera": {
+    "props": {
+      "id": "menu-item-igiera",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Igiera Publica",
+        "text": "Igiera Publica"
+      }
+    }
+  },
+  "menu-item#ferme": {
+    "props": {
+      "id": "menu-item-ferme",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Produse Ferme",
+        "text": "Produse Ferme"
+      }
+    }
+  }
 }

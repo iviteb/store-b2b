@@ -1,0 +1,8 @@
+.styledLink--branduri {
+    color: #0e368a;
+    font-weight: bolder;
+}
+
+.styledLink--branduri:hover {
+    text-decoration: underline #0e368a;
+}

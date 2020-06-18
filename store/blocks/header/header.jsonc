@@ -10,13 +10,14 @@
   },
 
   "header-row#2-desktop": {
-    "children": ["category-menu", "header-spacer"]
+    "children": ["category-menu", "header-spacer", "menu-item#branduri-header"]
   },
 
   "category-menu": {
     "props": {
       "showAllDepartments": false,
-      "showSubcategories": true
+      "showSubcategories": true,
+      "menuDisposition": "left"
     }
   },
   "flex-layout.col#spacer": {
@@ -133,6 +134,7 @@
   },
   "menu#drawer": {
     "children": [
+      "menu-item#branduri-header-pequeño",
       "menu-item#promotii",
       "menu-item#medicamente",
       "menu-item#aparatura-parafarmaceutice",
