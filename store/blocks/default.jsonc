@@ -43,6 +43,17 @@
       "add-to-cart-button"
     ]
   },
+  "product-summary.shelf#search": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-selling-price#sellingPriceValue",
+      "add-to-cart-button"
+    ]
+  },
 
   "flex-layout.row#selling-price": {
     "children": [

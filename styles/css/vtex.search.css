@@ -1,0 +1,11 @@
+.tileList {
+    padding-right: 2em;
+}
+
+.tileListItem {
+    padding: 0 .2em;
+}
+
+.biggy-autocomplete {
+    width: 790px;
+}
