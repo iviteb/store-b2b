@@ -3,7 +3,7 @@
     justify-content: center;
     font-weight: bolder;
     font-size: medium;
-    color: #b2243a;
+    color: #2d8640;
     margin-bottom: 1em;
 }
 
@@ -13,7 +13,7 @@
     font-weight: bolder;
     font-weight: bold;
     font-size: 25px;
-    color: #b2243a;
+    color: #2d8640;
 }
 
 .sellingPrice--sellingPriceWithTax {
@@ -21,8 +21,8 @@
     justify-content: center;
     font-weight: bold;
     font-size: medium;
-    color: #2b5cc5;
-    margin-top: .2em;
+    color: #304591;
+    margin-top: 0.2em;
     margin-bottom: 1em;
 }
 
@@ -30,7 +30,7 @@
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
-    background-color: #b2243a;
+    background-color: #2d8640;
     color: white;
     padding: 0.2em 0;
     border-radius: 3rem;
@@ -43,7 +43,7 @@
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
-    background-color: #b2243a;
+    background-color: #2d8640;
     color: white;
     padding: 0.2em 0;
     border-radius: 3rem;
@@ -56,5 +56,5 @@
     justify-content: center;
     font-weight: bolder;
     font-size: 20px;
-    color: #2b5cc5;
+    color: #304591;
 }

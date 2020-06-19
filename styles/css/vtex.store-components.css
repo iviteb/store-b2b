@@ -55,7 +55,7 @@
 }
 
 .price_sellingPrice--product-price {
-    color: #c9485b;
+    color: #2d8640;
 }
 
 .price_sellingPriceContainer--product-price {
@@ -76,7 +76,7 @@
 }
 
 .newsletter {
-    background-color: #2b5cc5;
+    background-color: #304591;
 }
 
 .infoCardTextContainer--promocional {
@@ -85,18 +85,34 @@
 }
 
 .infoCardCallActionContainer--promocional :global(.vtex-button) {
-    background: #2b5cc5;
+    background: #2d8640;
     margin-bottom: 4em;
     border: none;
 }
 
 .infoCardCallActionContainer--promocional :global(.vtex-button):hover {
-    background: #9c1d20;
+    background: #677ed1;
     border: none;
+}
+
+.infoCardHeadline--banner-1,
+.infoCardHeadline--banner-2,
+.infoCardHeadline--banner-7 {
+    color: #304591;
 }
 
 .newsletter .label {
     color: black;
+}
+
+.newsletter :global(.vtex-button) {
+    background-color: #4ea160;
+    border: none;
+}
+
+.newsletter :global(.vtex-button):hover {
+    background-color: #2d8640;
+    border: none;
 }
 
 .shareButtons {
@@ -111,4 +127,9 @@
 
 .newsletter .label {
     color: white;
+}
+
+.sellingPrice {
+    color: black;
+    font-weight: bold;
 }

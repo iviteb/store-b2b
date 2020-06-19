@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       //"list-context.image-list#demo",
-      "flex-layout.row#banner-main-3",
+      //"flex-layout.row#banner-main-3",
+      //"flex-layout.row#banner-main-principal",
       "flex-layout.row#banner-main-4",
       "flex-layout.row#deals",
       "flex-layout.row#fitosani",
@@ -23,40 +24,6 @@
   "challenge.trade-policy-condition": {
     "props": {
       "redirectPath": "/login"
-    }
-  },
-  "list-context.image-list#demo-1": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 200,
-      "width": 600,
-      "images": [
-        {
-          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura1_b2b___7a65b8336f042843ab4925490b491f89.gif",
-          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura1_b2b___7a65b8336f042843ab4925490b491f89.gif"
-        },
-        {
-          "image": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura2_b2b___4318225d3c5521a4b3855ceb602ece6f.gif",
-          "mobileImage": "https://vetro.vtexassets.com/assets/vtex.file-manager-graphql/images/figura2_b2b___4318225d3c5521a4b3855ceb602ece6f.gif"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "showPaginationDots": "never",
-      "blockClass": "carousel"
     }
   },
   "list-context.image-list#demo-2": {
@@ -82,8 +49,12 @@
         "tablet": 1,
         "phone": 1
       },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
       "infinite": true,
-      "showNavigationArrows": "always",
+      "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "blockClass": "carousel"
     }
@@ -111,8 +82,12 @@
         "tablet": 1,
         "phone": 1
       },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
       "infinite": true,
-      "showNavigationArrows": "always",
+      "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "blockClass": "carousel"
     }
@@ -191,24 +166,6 @@
     }
   },
 
-  "flex-layout.row#banner-main-3": {
-    "children": ["list-context.image-list#demo-1"],
-    "props": {
-      "marginTop": 2,
-      "blockClass": "banner-main-1"
-    }
-  },
-  /*
-  "info-card#banner-4": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307766/vetroB2B/3027334_jwwu9u.jpg",
-      "isFullModeStyle": true,
-      "headline": "Aparatura,instrumentar si parafarmaceutice <br> <br> <br>",
-      "callToActionText": " Mai Mult",
-      "textPosition": "right",
-      "blockClass": "banner-4"
-    }
-  },*/
   "flex-layout.row#banner-main-4": {
     "children": [
       //"info-card#banner-5",
@@ -219,27 +176,7 @@
       "blockClass": "banner-main-2"
     }
   },
-  /*
-  "info-card#banner-5": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591310377/vetroB2B/adult-tan-and-white-french-bulldog-545063_fixebe.jpg",
-      "isFullModeStyle": true,
-      "headline": "<br> <br> <br> <br> <br> <br>Suplimente",
-      "callToActionText": " Mai Mult",
-      "textPosition": "right",
-      "blockClass": "banner-5"
-    }
-  },
-  "info-card#banner-6": {
-    "props": {
-      "imageUrl": "https://res.cloudinary.com/vetro-solution/image/upload/v1591307772/vetroB2B/3176603_d8gnqh.jpg",
-      "isFullModeStyle": true,
-      "headline": " Echipamente si accesorii <br> diverse",
-      "callToActionText": " Mai Mult",
-      "textPosition": "right",
-      "blockClass": "banner-6"
-    }
-  },*/
+
   "flex-layout.row#banner-main-5": {
     "children": ["info-card#banner-7"],
     "props": {

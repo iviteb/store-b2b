@@ -1,6 +1,6 @@
 :global(.vtex-category-menu-2-x-departmentLink) {
-    color: #0e368a;
-    ;
+    color: #2d8640;
+    font-weight: bolder;
 }
 
 :global(.vtex-category-menu-2-x-itemContainer) {
@@ -8,6 +8,6 @@
 }
 
 :global(.vtex-category-menu-2-x-firstLevelLink) {
-    color: #0e368a;
-    font-weight: bolder;
+    color: #304591;
+    font-weight: bold;
 }

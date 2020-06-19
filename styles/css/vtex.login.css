@@ -1,12 +1,12 @@
 .profileIcon--login-menu,
 .label {
-    color: #0e368a;
+    color: white;
 }
 
 :global(.vtex-login-2-x-button) :global(.vtex-button) {
     width: 100%;
     min-height: 2.5rem;
-    background: #b3253b;
+    background: #2d8640;
     color: white;
     border: none;
 }
@@ -14,7 +14,7 @@
 :global(.vtex-login-2-x-button) :global(.vtex-button):hover {
     width: 100%;
     min-height: 2.5rem;
-    background: #0e368a;
+    background: #304591;
     color: white;
     border: none;
 }
@@ -23,8 +23,8 @@
 :global(.vtex-login-2-x-container) :global(.vtex-button):hover,
 :global(.vtex-login-2-x-container) :global(.vtex-button):focus,
 :global(.vtex-login-2-x-container) :global(.vtex-button):active {
-    background-color: #9eb3df;
-    color: #0e368a;
+    background-color: #304591;
+    color: white;
     border-style: solid;
-    border-color: #9eb3df;
+    border-color: #304591;
 }

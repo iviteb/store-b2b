@@ -1,5 +1,9 @@
 .cartIcon--minicart {
-    color: #0e368a;
+    color: white;
+}
+
+.label {
+    color: white;
 }
 
 :global(.vtex-minicart-2-x-container) {
@@ -10,7 +14,7 @@
 :global(.vtex-minicart-2-x-contentFooter) :global(.vtex-button) {
     width: 100%;
     min-height: 2.5rem;
-    background: #b3253b;
+    background-color: #304591;
     color: white;
     border: none;
 }
@@ -18,8 +22,7 @@
 :global(.vtex-minicart-2-x-contentFooter) :global(.vtex-button):hover {
     width: 100%;
     min-height: 2.5rem;
-    background: #0e368a;
-    color: white;
+    background-color: #2d8640;
     border: none;
 }
 
@@ -27,12 +30,17 @@
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):hover,
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):focus,
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):active {
-    background-color: #9eb3df;
-    color: #0e368a;
+    background-color: #304591;
+    color: white;
     border-style: solid;
-    border-color: #9eb3df;
+    border-color: #304591;
 }
 
 .minicartIconContainer {
-    color: #0e368a;
+    color: white;
+}
+
+.contentFooter {
+    justify-content: center;
+    align-items: center;
 }
