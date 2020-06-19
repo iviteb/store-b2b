@@ -11,8 +11,7 @@
     text-align: center;
     justify-content: center;
     font-weight: bolder;
-    font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color: #2d8640;
 }
 
@@ -20,7 +19,7 @@
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    font-size: medium;
+    font-size: small;
     color: #304591;
     margin-top: 0.2em;
     margin-bottom: 1em;
@@ -30,8 +29,10 @@
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
-    background-color: #2d8640;
-    color: white;
+    font-size: small;
+    background-color: #efb810;
+    font-weight: bold;
+    color: black;
     padding: 0.2em 0;
     border-radius: 3rem;
     text-align: center;
@@ -43,18 +44,18 @@
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
-    background-color: #2d8640;
-    color: white;
+    background-color: #efb810;
+    color: black;
     padding: 0.2em 0;
     border-radius: 3rem;
     text-align: center;
-    font-weight: medium;
+    font-weight: bold;
 }
 
 .sellingPrice--sellingPriceWithTaxProduct {
     text-align: center;
     justify-content: center;
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
     color: #304591;
 }

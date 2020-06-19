@@ -133,3 +133,20 @@
     color: black;
     font-weight: bold;
 }
+
+
+/* buttons infocard */
+
+.infoCardCallActionContainer--banner-2 :global(.vtex-button),
+.infoCardCallActionContainer--banner-1 :global(.vtex-button),
+.infoCardCallActionContainer--banner-7 :global(.vtex-button) {
+    background-color: #2d8640;
+    border: none;
+}
+
+.infoCardCallActionContainer--banner-2 :global(.vtex-button):hover,
+.infoCardCallActionContainer--banner-1 :global(.vtex-button):hover,
+.infoCardCallActionContainer--banner-7 :global(.vtex-button):hover {
+    background-color: #304591;
+    border: none;
+}
