@@ -5,6 +5,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
         "href": "#", //poner la direccion
@@ -20,6 +21,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
         "href": "/branduri", //poner la direccion
@@ -35,6 +37,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
         "href": "/info-center", //poner la direccion
@@ -50,9 +53,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "#", //poner la direccion
+        "href": "/info-center", //poner la direccion
         "noFollow": false,
         "tagTitle": "Contact",
         "text": "Contact"
@@ -65,12 +69,13 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
         "href": "#", //poner la direccion
         "noFollow": false,
-        "tagTitle": "Termeni si",
-        "text": "Termeni si"
+        "tagTitle": "Confidentialitate",
+        "text": "Confidentialitate"
       }
     }
   },
@@ -80,27 +85,13 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "#", //poner la direccion
+        "href": "/terms-and-conditions", //poner la direccion
         "noFollow": false,
         "tagTitle": "conditii",
         "text": "Conditii"
-      }
-    }
-  },
-  "menu-item#sitemap": {
-    "props": {
-      "id": "menu-item-sitemap",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#", //poner la direccion
-        "noFollow": false,
-        "tagTitle": "sitemap",
-        "text": "sitemap"
       }
     }
   },
@@ -110,12 +101,29 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/deprenoi", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Depre noi",
+        "text": "Depre noi"
+      }
+    }
+  },
+  "menu-item#promotii-footer": {
+    "props": {
+      "id": "menu-item-promotii",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
         "href": "#", //poner la direccion
         "noFollow": false,
-        "tagTitle": "Depre noi",
-        "text": "Depre noi"
+        "tagTitle": "Promotii",
+        "text": "Promotii"
       }
     }
   },
@@ -135,7 +143,7 @@
     "children": [
       "menu-item#produse",
       "menu-item#branduri",
-      "menu-item#promotii",
+      "menu-item#promotii-footer",
       "menu-item#info-center"
     ],
     "props": {

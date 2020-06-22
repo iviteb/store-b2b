@@ -3,9 +3,12 @@
         "path": "/branduri"
     },
     "store.custom#info-center": {
-        "path": "info-center"
+        "path": "/info-center"
     },
     "store.custom#depre-noi": {
-        "path": "deprenoi"
+        "path": "/deprenoi"
+    },
+    "store.custom#conditii": {
+        "path": "/terms-and-conditions"
     }
 }

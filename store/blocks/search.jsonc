@@ -20,7 +20,7 @@
       //"search-content",
       //"filter-navigator.v3",
       "flex-layout.row#did-you-mean",
-      "flex-layout.row#suggestion",
+      //"flex-layout.row#suggestion",
       //"flex-layout.row#banner-one",
       "flex-layout.row#results",
       "search-fetch-more"
