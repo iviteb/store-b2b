@@ -8,7 +8,7 @@
 
 .flexRow--deals {
     background-color: #304591;
-    padding: 1em 10em;
+    padding: 1em 4em;
 }
 
 .imageElement {
@@ -68,7 +68,7 @@
 .flexRow--buy-button :global(.vtex-button)::before {
     width: 80px;
     height: 200px;
-    content: '';
+    content: "";
     display: block;
     background: rgba(255, 255, 255, 0.5);
     transform: rotate(45deg);
@@ -125,4 +125,14 @@
 .flexRowContent--sellingPriceValue {
     text-align: center;
     margin-bottom: 1em;
+}
+
+.flexRow--image-main {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 640px) {
+    .flexRow--image-main {
+        display: none;
+    }
 }

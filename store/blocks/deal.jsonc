@@ -1,16 +1,16 @@
 {
   "flex-layout.row#deals": {
-    "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
-    ],
+    "children": ["flex-layout.row#deals1-2", "flex-layout.row#deals2-3"],
     "props": {
       "blockClass": "deals"
     }
   },
-
+  "flex-layout.row#deals1-2": {
+    "children": ["flex-layout.col#deals1", "flex-layout.col#deals2"]
+  },
+  "flex-layout.row#deals2-3": {
+    "children": ["flex-layout.col#deals3", "flex-layout.col#deals4"]
+  },
   "flex-layout.col#deals1": {
     "children": ["image#deal1", "rich-text#deal1"],
     "props": {

@@ -1,9 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      //"list-context.image-list#demo",
-      //"flex-layout.row#banner-main-3",
-      //"flex-layout.row#banner-main-principal",
+      "flex-layout.row#image-main",
       "flex-layout.row#banner-main-4",
       "flex-layout.row#deals",
       "flex-layout.row#fitosani",
@@ -15,7 +13,6 @@
       "info-card#banner-footer",
       "flex-layout.row#home",
       "__fold__"
-      //"flex-layout.row#aboutmain"
     ],
     "parent": {
       "challenge": "challenge.trade-policy-condition"
@@ -24,6 +21,24 @@
   "challenge.trade-policy-condition": {
     "props": {
       "redirectPath": "/login"
+    }
+  },
+  "image#main": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592797035/vetroB2B/prueba_xcdxne.gif"
+    }
+  },
+  "flex-layout.row#image-main": {
+    "children": ["flex-layout.col#image-main"],
+    "props": {
+      "blockClass": "image-main"
+    }
+  },
+  "flex-layout.col#image-main": {
+    "children": ["image#main"],
+    "props": {
+      "paddingLeft": 7,
+      "paddingRight": 5
     }
   },
   "list-context.image-list#demo-2": {
@@ -125,7 +140,7 @@
   "flex-layout.row#banner-main-1": {
     "children": ["info-card#banner-1"],
     "props": {
-      "marginTop": 2,
+      "marginTop": 0,
       "blockClass": "banner-main-1"
     }
   },
