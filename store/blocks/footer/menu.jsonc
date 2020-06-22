@@ -37,7 +37,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#", //poner la direccion
+        "href": "/info-center", //poner la direccion
         "noFollow": false,
         "tagTitle": "Info-center",
         "text": "Info-center"
@@ -104,6 +104,21 @@
       }
     }
   },
+  "menu-item#depre": {
+    "props": {
+      "id": "menu-item-depre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner la direccion
+        "noFollow": false,
+        "tagTitle": "Depre noi",
+        "text": "Depre noi"
+      }
+    }
+  },
   "vtex.menu@2.x:menu#footer-produse": {
     "props": {
       "orientation": "vertical"
@@ -132,7 +147,7 @@
       "menu-item#contact",
       "menu-item#termeni-si",
       "menu-item#conditii",
-      "menu-item#sitemap"
+      "menu-item#depre"
     ],
     "props": {
       "paddingRight": 5

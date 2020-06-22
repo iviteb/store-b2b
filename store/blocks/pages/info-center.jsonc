@@ -1,0 +1,50 @@
+{
+  "store.custom#info-center": {
+    "blocks": [
+      "flex-layout.row#info-center-text",
+      "newsletter",
+      "flex-layout.row#home"
+    ]
+  },
+  "rich-text#info-center": {
+    "props": {
+      "text": "Contact",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3",
+      "blockClass": "branduri-text"
+    }
+  },
+  "rich-text#vetro-solution": {
+    "props": {
+      "text": "VETRO SOLUTIONS SRL",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-5"
+    }
+  },
+  "rich-text#info-general": {
+    "props": {
+      "text": "Calea Chisinaului nr 6, Iasi, Judetul Iasi, cod 700181Nr.<br><br> inreg. R.C.: J22/3019/2019 <br><br> C.U.I.: RO 30740124 <br><br>Telefon: +40 332 803 182 <br><br> Email: office@vetro.vet",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.row#info-center-text": {
+    "children": ["flex-layout.col#info-center-text"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.col#info-center-text": {
+    "children": [
+      "rich-text#info-center",
+      "rich-text#vetro-solution",
+      "rich-text#info-general"
+    ],
+    "props": {
+      "paddingLeft": 10,
+      "paddingRight": 10
+    }
+  }
+}

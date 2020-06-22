@@ -1,0 +1,89 @@
+{
+  "store.custom#depre-noi": {
+    "blocks": ["flex-layout.row#depre-noi"]
+  },
+  "rich-text#depre-noi": {
+    "props": {
+      "text": "Depre noi",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3",
+      "blockClass": "branduri-text"
+    }
+  },
+  "rich-text#info-depre-1": {
+    "props": {
+      "text": "**Vetro** este o companie care activează în domeniul distribuției de medicamente veterinare, comercializând produse destinate proprietarilor de animale de rentă, de animale de companie și oferind servicii și consultanță adresate medicilor veterinari. Numărul de clienți unici deserviți este de aproximativ 1500, iar echipa este compusă din 50 de angajați şi colaboratori.<br><br> Activitatea este organizată în cadrul a două divizii – Vet și Ferme, iar distribuția este asigurată prin intermediul zonelor Moldova, Muntenia și Ardeal. Sediul central (administrativ) și depozitul se află în orașul Iași.<br><br> Portofoliul de produse este atent selecţionat pe baza unor colaborări naţionale şi internaţionale, în care sunt investite în mod permanent resurse umane de înaltă calitate şi sunt întreţinute relaţii de încredere:",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#info-depre-2": {
+    "props": {
+      "text": "**Vetro** are o experiență bogată în domeniul sistemelor de profilaxie în fermele de animale, punând la dispoziția clienților o gamă completă de medicamente, vaccinuri și substanțe dezinfectante, produse rodenticide și insecticide.<br> În centrul activităţii companiei se află echipa, formată în marea majoritate din medici veterinari, determinaţi să înţeleagă în profunzime nevoile de business de pe piaţa medicinei veterinare, asigurând suport logistic și profesional.<br><br>  **Vetro**    se implică în procesele de digitalizare şi profesionalizare ale domeniului medicinei veterinare, investind într-o serie de proiecte (ca titular sau partener): Digital – software veterinar, platforma Cauta.vet, Vet Business Academy – platformă educațională. ",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.row#depre-noi": {
+    "children": ["flex-layout.col#depre-noi"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.col#depre-noi": {
+    "children": [
+      "rich-text#depre-noi",
+      "rich-text#info-depre-1",
+      "flex-layout.row#image-1",
+      "rich-text#info-depre-2",
+      "flex-layout.row#image-2"
+    ],
+    "props": {
+      "paddingLeft": 10,
+      "paddingRight": 10
+    }
+  },
+  "image#branduri-1": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-33.gif"
+    }
+  },
+  "image#branduri-2": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592099280/vetroB2B/branduri/branduri-25.gif"
+    }
+  },
+  "image#branduri-3": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592238712/vetroB2B/branduri/branduri-36.gif"
+    }
+  },
+  "image#branduri-4": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592100552/vetroB2B/branduri/branduri-29.gif"
+    }
+  },
+  "image#branduri-5": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592087992/vetroB2B/branduri/branduri-15.gif"
+    }
+  },
+  "image#branduri-6": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592014962/vetroB2B/branduri/branduri-3.gif"
+    }
+  },
+  "flex-layout.row#image-1": {
+    "children": ["image#branduri-1", "image#branduri-2", "image#branduri-3"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#image-2": {
+    "children": ["image#branduri-4", "image#branduri-5", "image#branduri-6"],
+    "props": {
+      "marginBottom": 5
+    }
+  }
+}
