@@ -1,158 +1,143 @@
 {
-    "footer": {
-      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-    },
-    "rich-text#links-uri": {
-      "props": {
-        "text": "**Links-uri utile**",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT"
-      }
-    },
-    "rich-text#social-foot": {
-      "props": {
-        "text": "**Social**",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "blockClass": "social"
-      }
-    },
-    "footer-layout.desktop": {
-      "children": [
-        "flex-layout.row#footer-1-desktop",
-        "flex-layout.row#footer-2-desktop"
-      ]
-    },
-    "flex-layout.row#footer-1-desktop": {
-      "children": [
-        "flex-layout.col#footer-1-links",
-        "rich-text#about",
-        "flex-layout.row#social-foot"
-      ],
-      "props": {
-        "blockClass": "menu-row",
-        "paddingTop": 6,
-        "paddingBottom": 3
-      }
-    },
-    "flex-layout.col#footer-1-links": {
-      "children": [
-        "flex-layout.row#link-uri",
-        "vtex.menu@2.x:menu#footer-produse"
-      ],
-      "props":{
-        "blockClass": "links-uri"
-      }
-    },
-    "flex-layout.row#link-uri": {
-      "children": [
-        "flex-layout.col#link-uri"
-      ]
-    },
-    "flex-layout.col#link-uri": {
-      "children": [
-        "rich-text#links-uri"
-      ],
-      "props":{
-        "marginLeft": 7
-      }
-    },
-    "flex-layout.row#social-foot": {
-      "children": [
-        "flex-layout.col#social-foot"
-      ]
-    },
-    "flex-layout.col#social-foot": {
-      "children": [
-        "image",
-        "rich-text#social-foot",
-        "social-networks"
-      ],
-      "props":{
-        "marginRight": 7
-      }
-    },
-    "social-networks": {
-      "props": {
-
-        "socialNetworks": [
-          {
-            "name": "Facebook",
-            "url": "https://www.facebook.com/vtexonline/"
-          },
-          {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/vtextruecloud/"
-          },
-          {
-            "name": "Twitter",
-            "url": "https://twitter.com/vtexonline"
-          },
-          {
-            "name": "Youtube",
-            "url": "https://www.youtube.com/user/VTEXTV"
-          }
-        ]
-      }
-    },
-  
-    "flex-layout.row#footer-2-desktop": {
-      "children": ["accepted-payment-methods"],
-      "props": {
-        "blockClass": "payment-methods"
-      }
-    },
-    "accepted-payment-methods": {
-      "props": {
-        "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
-      }
-    },
-  
-    "flex-layout.row#footer-3-desktop": {
-      "children": ["rich-text#footer"],
-      "props": {
-        "blockClass": "credits"
-      }
-    },
-    "rich-text#footer": {
-      "props": {
-        "text": "All stock and product photos are from photos.icons8.com",
-        "blockClass": "footer"
-      }
-    },
-  
-    "footer-layout.mobile": {
-      "children": [
-        "flex-layout.row#1-footer-mobile",
-        "flex-layout.row#2-footer-mobile"
-      ]
-    },
-    "flex-layout.row#2-footer-mobile": {
-      "children": ["flex-layout.col#footer-1-mobile"],
-      "props": {
-        "blockClass": "payment-methods",
-        "paddingTop": 4,
-        "paddingBottom": 4
-      }
-    },
-    "flex-layout.col#footer-1-mobile": {
-      "children": [
-        "accepted-payment-methods",
-        "social-networks"
-      ],
-      "props": {
-        "blockClass": "payment-methods",
-        "paddingTop": 4,
-        "paddingBottom": 4,
-        "rowGap": 4
-      }
-    },
-    "flex-layout.row#1-footer-mobile": {
-      "props": {
-        "paddingTop": 4,
-        "paddingBottom": 4
-      },
-      "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "rich-text#links-uri": {
+    "props": {
+      "text": "**Links-uri utile**",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
     }
+  },
+  "rich-text#social-foot": {
+    "props": {
+      "text": "**Social**",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "social"
+    }
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-1-links",
+      "rich-text#about",
+      "flex-layout.row#social-foot"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footer-1-links": {
+    "children": [
+      "flex-layout.row#link-uri",
+      "vtex.menu@2.x:menu#footer-produse"
+    ],
+    "props": {
+      "blockClass": "links-uri"
+    }
+  },
+  "flex-layout.row#link-uri": {
+    "children": ["flex-layout.col#link-uri"]
+  },
+  "flex-layout.col#link-uri": {
+    "children": ["rich-text#links-uri"],
+    "props": {
+      "marginLeft": 7
+    }
+  },
+  "flex-layout.row#social-foot": {
+    "children": ["flex-layout.col#social-foot"]
+  },
+  "flex-layout.col#social-foot": {
+    "children": ["image", "rich-text#social-foot", "social-networks"],
+    "props": {
+      "marginRight": 7
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": ["accepted-payment-methods", "social-networks"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
   }
-  
+}

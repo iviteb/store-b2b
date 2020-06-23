@@ -18,15 +18,15 @@
       "flex-layout.col#produse-ferme"
     ],
     "props": {
-      "paddingLeft": 10,
-      "paddingRight": 10
+      "paddingLeft": 5,
+      "paddingRight": 5
     }
   },
   "rich-text#iproduse-text": {
     "props": {
       "text": "Produse",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "font": "t-heading-3",
       "blockClass": "branduri-text"
     }

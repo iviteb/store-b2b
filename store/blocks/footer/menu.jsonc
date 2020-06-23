@@ -166,7 +166,7 @@
     "props": {
       "orientation": "vertical"
     },
-    "children": ["menu-item#produse-mobile"]
+    "children": ["menu-item#produse-mobile", "menu-item#link-uri"]
   },
   "menu-item#produse-mobile": {
     "props": {
@@ -176,7 +176,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#", //poner url
+        "href": "/produse", //poner url
         "noFollow": true,
         "tagTitle": "Produse",
         "text": "Produse"
@@ -193,6 +193,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "menu-item#produse",
       "menu-item#promotii",
       "menu-item#medicamente",
       "menu-item#aparatura-parafarmaceutice",
@@ -206,6 +207,39 @@
       "menu-item#aparatura",
       "menu-item#igiera",
       "menu-item#ferme"
+    ]
+  },
+  "menu-item#link-uri": {
+    "props": {
+      "id": "menu-item-category-link-uri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#", //poner url
+        "noFollow": true,
+        "tagTitle": "Links uri",
+        "text": "Links uri"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#link-uri"]
+  },
+  "vtex.menu@2.x:submenu.accordion#link-uri": {
+    "children": ["vtex.menu@2.x:menu#link-uri-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#link-uri-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#branduri",
+      "menu-item#info-center",
+      "menu-item#contact",
+      "menu-item#termeni-si",
+      "menu-item#conditii",
+      "menu-item#depre"
     ]
   }
 }
