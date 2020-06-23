@@ -13,5 +13,8 @@
     },
     "store.custom#confidencial": {
         "path": "/confidentialitate"
+    },
+    "store.custom#produse": {
+        "path": "/produse"
     }
 }

@@ -8,7 +8,7 @@
       "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "#", //poner la direccion
+        "href": "/produse", //poner la direccion
         "noFollow": false,
         "tagTitle": "Produse",
         "text": "Produse"

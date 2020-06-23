@@ -1,0 +1,344 @@
+{
+  "store.custom#produse": {
+    "blocks": ["flex-layout.row#produse"]
+  },
+
+  "flex-layout.row#produse": {
+    "children": ["flex-layout.col#produse"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.col#produse": {
+    "children": [
+      "rich-text#iproduse-text",
+      "flex-layout.row#produse-row-1",
+      "flex-layout.row#produse-row-2",
+      "flex-layout.row#produse-row-3",
+      "flex-layout.col#produse-ferme"
+    ],
+    "props": {
+      "paddingLeft": 10,
+      "paddingRight": 10
+    }
+  },
+  "rich-text#iproduse-text": {
+    "props": {
+      "text": "Produse",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3",
+      "blockClass": "branduri-text"
+    }
+  },
+  "flex-layout.row#produse-row-1": {
+    "children": [
+      "flex-layout.col#produse-promotii",
+      "flex-layout.col#produse-medicamente",
+      "flex-layout.col#produse-aparatura",
+      "flex-layout.col#produse-echipamente"
+    ]
+  },
+  "image#produse-promotii": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-promotii": {
+    "props": {
+      "text": "**Promotii**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-promotii": {
+    "children": ["image#produse-promotii", "rich-text#produse-promotii"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-medicamente": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-medicamente": {
+    "props": {
+      "text": "**Medicamente**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-medicamente": {
+    "children": ["image#produse-medicamente", "rich-text#produse-medicamente"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-aparatura": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-aparatura": {
+    "props": {
+      "text": "**Aparatura,instrumentar si parafarmaceutice**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-aparatura": {
+    "children": ["image#produse-aparatura", "rich-text#produse-aparatura"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-echipamente": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-echipamente": {
+    "props": {
+      "text": "**Echipamente si accesorii diverse**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-echipamente": {
+    "children": ["image#produse-echipamente", "rich-text#produse-echipamente"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-cosmetice": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-cosmetice": {
+    "props": {
+      "text": "**Cosmetice si igiena animala**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-cosmetice": {
+    "children": ["image#produse-cosmetice", "rich-text#produse-cosmetice"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.row#produse-row-2": {
+    "children": [
+      "flex-layout.col#produse-furaje",
+      "flex-layout.col#produse-chaeguri",
+      "flex-layout.col#produse-teste",
+      "flex-layout.col#produse-suplimente"
+    ]
+  },
+  "image#produse-furaje": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-furaje": {
+    "props": {
+      "text": "**Furaje animale de companie**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-furaje": {
+    "children": ["image#produse-furaje", "rich-text#produse-furaje"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-chaeguri": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-chaeguri": {
+    "props": {
+      "text": "**Cheaguri**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-chaeguri": {
+    "children": ["image#produse-chaeguri", "rich-text#produse-chaeguri"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-teste": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-teste": {
+    "props": {
+      "text": "**Teste de diagnostic**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-teste": {
+    "children": ["image#produse-teste", "rich-text#produse-teste"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-suplimente": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-suplimente": {
+    "props": {
+      "text": "**Suplimente**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-suplimente": {
+    "children": ["image#produse-suplimente", "rich-text#produse-suplimente"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-hrana": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-hrana": {
+    "props": {
+      "text": "**Hrana animale de companie**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-hrana": {
+    "children": ["image#produse-hrana", "rich-text#produse-hrana"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "flex-layout.row#produse-row-3": {
+    "children": [
+      "flex-layout.col#produse-hrana",
+      "flex-layout.col#produse-cosmetice",
+      "flex-layout.col#produse-accesorii",
+      "flex-layout.col#produse-igiena"
+    ]
+  },
+  "image#produse-accesorii": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-accesorii": {
+    "props": {
+      "text": "**Apatura si accesorii**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-accesorii": {
+    "children": ["image#produse-accesorii", "rich-text#produse-accesorii"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-igiena": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-igiena": {
+    "props": {
+      "text": "**Igiena Publica**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-igiena": {
+    "children": ["image#produse-igiena", "rich-text#produse-igiena"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  },
+  "image#produse-ferme": {
+    "props": {
+      "src": "https://res.cloudinary.com/vetro-solution/image/upload/v1592012648/vetroB2B/branduri/branduri-1_b2b.gif",
+      "maxHeight": 200,
+      "link": { "url": "/" }
+    }
+  },
+  "rich-text#produse-ferme": {
+    "props": {
+      "text": "**Produse ferme**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#produse-ferme": {
+    "children": ["image#produse-ferme", "rich-text#produse-ferme"],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5,
+      "blockClass": "column-branduri"
+    }
+  }
+}
