@@ -150,3 +150,9 @@
     background-color: #304591;
     border: none;
 }
+
+@media only screen and (max-width: 640px) {
+    .searchBarContainer {
+        width: 100%;
+    }
+}
