@@ -72,7 +72,7 @@
       "blockClass": "menu-footer",
       "itemProps": {
         "type": "internal",
-        "href": "#", //poner la direccion
+        "href": "/confidentialitate", //poner la direccion
         "noFollow": false,
         "tagTitle": "Confidentialitate",
         "text": "Confidentialitate"

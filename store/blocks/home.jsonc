@@ -38,7 +38,7 @@
     "children": ["image#main"],
     "props": {
       "paddingLeft": 7,
-      "paddingRight": 5
+      "paddingRight": 7
     }
   },
   "list-context.image-list#demo-2": {
@@ -183,7 +183,6 @@
 
   "flex-layout.row#banner-main-4": {
     "children": [
-      //"info-card#banner-5",
       "list-context.image-list#demo-2",
       "list-context.image-list#demo-3"
     ],

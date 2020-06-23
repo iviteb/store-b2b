@@ -1,0 +1,102 @@
+{
+  "store.custom#confidencial": {
+    "blocks": ["flex-layout.row#confidencial"]
+  },
+
+  "flex-layout.row#confidencial": {
+    "children": ["flex-layout.col#confidencial"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.col#confidencial": {
+    "children": [
+      "rich-text#confidencial",
+      "rich-text#content-confi-1",
+      "rich-text#content-confi-2",
+      "rich-text#content-confi-3",
+      "rich-text#content-confi-4",
+      "rich-text#content-confi-5",
+      "rich-text#content-confi-6",
+      "rich-text#content-confi-7",
+      "rich-text#content-confi-8",
+      "rich-text#content-confi-9"
+    ],
+    "props": {
+      "paddingLeft": 10,
+      "paddingRight": 10
+    }
+  },
+  "rich-text#confidencial": {
+    "props": {
+      "text": "Confidentialitate",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3",
+      "blockClass": "branduri-text"
+    }
+  },
+  "rich-text#content-confi-1": {
+    "props": {
+      "text": "**Politică de Confidențialitate cu privire la prelucrarea datelor cu caracter personal**<br><br><br>Considerăm asigurarea dreptului la protecția datelor cu caracter personal ca un angajament fundamental , prin urmare vom dedica toate resursele și eforturile necesare pentru a prelucra datele dumneavoastră în deplină concordanță cu Regulamentul (UE) 2016/679 (**“Regulamentul general privind protecția datelor”** sau **“GDPR”**), precum și cu orice altă legislație aplicabilă pe teritoriul Romaniei. Întrucât unul dintre principiile esențiale ale acestui cadrul legal îl reprezintă transparența, am pregătit aceast document prin care dorim să vă informăm despre modul în care colectăm, utilizăm, transferăm și protejăm datele dvs cu caracter personal atunci când interacționați cu noi în legătură cu produsele și serviciile noastre, inclusiv prin site-ul nostru web sau prin aplicațiile disponibile pe telefonul mobil.<br><br>Ne rezervăm dreptul de a actualiza și modifica periodic această Politică de Confidențialitate, pentru a reflecta orice modificări ale modului în care prelucrăm datele dumneavoastră cu caracter personal sau orice modificări ale cerințelor legale. În cazul oricărei astfel de modificări, vom afișa pe website-ul nostru versiunea modificată a Politicii de Confidențialitate, motiv pentru care va rugam sa verificati periodic continutul acestei Politici de Confidentialitate.<br><br><br><br>**Cine suntem și cum ne puteți contacta**<br><br> B2B- Shopping  este denumirea comercială al **VETRO SOLUTIONS  SRL**, cu sediul in Municipiul Tecuci, strada Bobilna, nr.31, cam 1, jud. Galati, punct de lucru Str. Dreptatii nr 88, sat Dancu, com Holboca, jud. Iasi,înregistrată la Oficiul Registrului Comerţului sub nr J17/993/2013,  CUI nr. RO30740124,sau „**Vetro** ” sau**“noi“**). În sensul legislației cu privire la protecția datelor, suntem operator atunci când prelucrăm datele dvs cu caracter personal.<br><br>Întrucât suntem întotdeauna deschiși să aflăm opiniile dumneavoastră, precum și să vă furnizăm orice informații suplimentare de care ați putea avea nevoie cu privire la prelucrarea datelor dvs, vă încurajăm să contactați Responsabilul  cu protecția datelor la adresa de e-mail it@vetro.vet sau prin poștă sau curier la adresa : **Calea Chisinaului nr.6, Iasi, Romania** – cu mentiunea: în atenția Responsabilului VETRO  cu protecția datelor.<br><br><br><br>**Ce categorii de date cu caracter personal prelucrăm**<br><br><br>În general, colectăm datele dvs. cu caracter personal direct de la dumneavoastră, astfel încât aveți controlul asupra tipului de informație pe care ne-o oferiți. Cu titlul de exemplu, primim informații de la dvs. astfel:<br><br>Când vă creați un cont B2B -SHOPING, ne transmiteți: adresa de e-mail, numele și prenumele;<br>În cadrul paginii dvs. personale (Contul meu) din platforma VETRO aveți posibilitatea să adăugați informații suplimentare, precum:  număr telefon mobil, număr telefon fix, adrese de livrare, adresa alternativa de e-mail, datele cardului bancar etc.;<br>Când plasați o comandă, ne furnizați informații precum: produsul dorit, numele si prenumele, adresa de livrare, detalii de facturare, metoda de plată, număr de telefon, datele cardului bancar etc.<br><br><br>Putem, de asemenea, să colectăm și să prelucrăm ulterior anumite informații cu privire la comportamentul dvs în timpul vizitării site-ului nostru web,............................... pentru a vă personaliza experiența online și a vă pune la dispoziție oferte adaptate profilului dvs. Vă invităm să aflați mai multe detalii în acest sens prin consultarea secțiunii privitoare la scopurile prelucrării de mai jos.<br><br>Pe site-ul nostru web putem stoca și colecta informații in cookie-uri și tehnologii similare, conform Politicii de cookie-uri.<br><br>Nu colectăm și nu prelucrăm în alt mod date sensibile, incluse de Regulamentul general privind protecția datelor în categorii speciale de date cu caracter personal. De asemenea, nu dorim să colectăm sau să prelucrăm date ale minorilor care nu au împlinit varsta de 16 ani.<br><br><br><br>**Care sunt scopurile și temeiurile prelucrării** <br><br><br>Vom utiliza datele dvs. cu caracter personal în următoarele scopuri:",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-2": {
+    "props": {
+      "text": "1. Pentru prestarea serviciilor VETRO în beneficiul dvs.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-3": {
+    "props": {
+      "text": "Acest scop general poate include, după caz, următoarele:<br>a) Crearea și administrarea contului în cadrul platformei B2B- shopping;<br>b) Prelucrarea comenzilor, inclusiv preluarea, validarea, expedierea și facturarea acestora;<br>c) Solutionarea anulărilor sau a problemelor de orice natură referitoare la o comandă, la bunurile sau serviciile achiziționate;<br>d) Returnarea produselor conform prevederilor legale;<br>e) Rambursarea contravalorii  produselor conform prevederilor legale.<br>h) Asigurarea serviciilor de suport, inclusiv oferirea de răspunsuri la întrebările dvs cu privire la comenzile dvs sau la bunurile și serviciile VETRO<br>Prelucrarea datelor dvs. pentru aceste scopuri este în cele mai multe cazuri necesară pentru încheierea și executarea unui contract între VETRO și dvs. De asemenea, anumite prelucrări subsumate acestor scopuri sunt impuse de legislația aplicabilă, inclusiv legislația fiscală și contabilă.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-4": {
+    "props": {
+      "text": "2. Pentru îmbunătățirea serviciilor noastre",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-5": {
+    "props": {
+      "text": "Ne dorim în permanență să vă oferim cea mai bună experiență de cumpărare online. Pentru aceasta, putem colecta și utiliza anumite informații în legătură cu comportamentul dvs. de Cumpărăror, vă putem invita să completați chestionare de satisfacție subsecvent finalizării unei comenzi sau putem desfășura, direct sau cu ajutorul unor parteneri, studii și cercetări de piață.<br><br>Ne întemeiem aceste activități pe interesul nostru legitim de a desfășura activități comerciale, având întotdeauna grijă ca drepturile și libertățile dvs. fundamentale să nu fie afectate.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-6": {
+    "props": {
+      "text": "3. Pentru marketing",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-7": {
+    "props": {
+      "text": "Vrem să vă ținem la curent cu privire la cele mai bune oferte pentru produsele/serviciile care vă interesează. În acest sens, vă putem trimite orice tip de mesaj (cum ar fi: e-mail/SMS/telefonic/mobile push/webpush/etc.)  continand informatii generale si tematice, informatii cu privire la produse similare sau complementare cu cele pe care le-ati achizitionat, informatii cu privire la oferte sau promotii, informatii referitoare la produse adaugate in sectiunea “Cont/Cosul meu” sau sectiunea  “Cont/Favorite” sau ati aratat interes sa le achizitionati, precum si alte comunicari comerciale cum ar fi cercetari de piata si sondaje de opinie, și putem afișa recomandări personalizate pe site-ul web și în aplicația smartphone. Pentru a vă pune la dispoziție informații de interes pentru dvs., putem folosi anumite date cu privire la comportamentul dvs. de cumpărător (de ex. produsele vizualizate / adăugate în wishlist / achiziționate) pentru a vă crea un profil. Ne asigurăm întotdeauna că aceste prelucrări se efectuează cu respectarea drepturilor și libertăților dvs. și că deciziile luate în baza acestora nu au efecte legale asupra dvs. și nu vă  afectează similar într-o măsură semnificativă.<br><br>În cele mai multe cazuri, ne întemeiem comunicările de marketing pe consimțământul dvs. prealabil. Vă puteți răzgândi și retrage consimțământul în orice moment, prin:<br><br>– Modificarea setărilor din contul de client în secțiunea “Abonările mele”;<br>– Accesarea link-ului de dezabonare afișat în cadrul mesajelor pe care le primiți de la noi; sau prin<br>– Contactarea VETRO  folosind detaliile de contact descrise mai sus.<br><br>În anumite situații, ne putem baza activitățile de marketing pe interesul nostru legitim de a ne promova și dezvolta activitatea comercială. În orice situație în care folosim informații cu privire la dvs. pentru un interes legitim al nostru, avem grijă și luăm toate măsurile necesare pentru ca  drepturile și libertățile dvs. fundamentale să nu fie afectate. Cu toate acestea, ne puteți solicita oricând, prin mijloacele descrise mai sus, să oprim prelucrarea datelor dvs. cu caracter personal în scop de marketing, urmând să dăm curs cererii dvs.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-8": {
+    "props": {
+      "text": "4. Pentru apărarea intereselor noastre legitime",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#content-confi-9": {
+    "props": {
+      "text": "Pot exista situații în care vom folosi sau transmite informații pentru a ne proteja drepturile și activitatea comercială. Acestea pot include:<br><br>– Măsuri de protecție a site-ului web și a utilizatorilor platformei B2B- Shopping față de atacuri cibernetice:<br>– Măsuri de prevenire și detectare a tentativelor de fraudare, inclusiv transmiterea unor informații către autoritățile publice competente;<br>– Măsuri de gestionare a diverselor altor riscuri.<br><br>Temeiul general al acestor tipuri de prelucrări este interesul nostru legitim de a ne apăra activitatea comercială, fiind înțeles că ne asigurăm că toate măsurile pe care le luăm garantează un echilibru între interesele noastre și drepturile și libertățile dvs. fundamentale.<br><br>De asemenea, în anumite cazuri ne întemeiem prelucrarea pe dispoziții legale  cum ar fi obligația de a asigura paza bunurilor și valorilor prevăzută de legislatia aplicabila in aceasta materie.<br><br><br><br>**Cât timp păstrăm datele dvs. cu caracter personal**<br><br>Ca regulă generală, vom stoca datele dvs. cu caracter personal cât timp aveți un cont în platforma B2B-Shoping. Puteți să ne solicitați oricând ștergerea anumitor informații sau închiderea contului și vom da curs acestor solicitări, sub rezerva păstrării anumitor informații inclusiv ulterior închiderii contului, în situațiile în care legislația aplicabilă sau interesele noastre legitime o impun.<br><br><br>**Cui transmitem datele dvs. cu caracter personal**<br><br>După caz, putem transmite sau oferi acces la anumite date cu caracter personal ale dvs. următoarelor categorii de destinatari:<br><br>– societăților din cadrul aceluiași grup de societăți ca VETRO;<br>– furnizorilor de servicii de curierat;<br>– furnizorilor de servicii de plată/bancare;<br>– furnizorilor de servicii de marketing / telemarketing;<br>– furnizorilor de servicii de cercetare de piață;<br>– societăților de asigurare;<br>– furnizorilor de servicii IT;<br>– altor societăți cu care putem dezvolta programe comune de ofertare pe piață a bunurilor si serviciilor noastre.<br><br>În cazul în care ne revine o obligație legală sau dacă este necesar pentru a ne apăra un interes legitim, putem de asemenea divulga anumite date cu caracter personal unor autorități publice.<br>Ne asigurăm că accesul la datele dvs. de către terții persoane juridice de drept privat se realizeaza în conformitate cu prevederile legale privind protecția datelor si confidențialitatea informațiilor, în baza unor contracte încheiate cu aceștia.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  }
+}

@@ -21,7 +21,6 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "branduri",
       "itemProps": {
         "type": "internal",
         "href": "/branduri", //poner la direccion
