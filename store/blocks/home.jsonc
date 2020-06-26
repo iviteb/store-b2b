@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#image-main",
+      //"flex-layout.row#image-main",
       "flex-layout.row#banner-main-4",
       "flex-layout.row#deals",
       "flex-layout.row#fitosani",
