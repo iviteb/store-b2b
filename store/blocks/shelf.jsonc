@@ -2,7 +2,7 @@
   "shelf#fitosani": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "category": 10001,
+      "category": 46,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
@@ -11,7 +11,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Promotii",
+        "titleText": "Pasari",
         "gap": "ph5"
       }
     }
@@ -19,7 +19,7 @@
   "shelf#animale": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "category": 10004,
+      "category": 25,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "blockClass": "shelf-animale",
@@ -29,7 +29,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Medicamente",
+        "titleText": "Picisi",
         "gap": "ph5"
       }
     }

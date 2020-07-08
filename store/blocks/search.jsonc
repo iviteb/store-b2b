@@ -1,5 +1,11 @@
 {
   "store.search": {
+    "props": {
+      //agregado para la busqueda
+      "context": {
+        "__unstableProductOriginVtex": true
+      }
+    },
     "blocks": ["search-result-layout"]
   },
   "search-result-layout": {
