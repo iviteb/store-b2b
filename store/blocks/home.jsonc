@@ -15,10 +15,10 @@
       "__fold__"
     ],
     "parent": {
-      "challenge": "challenge.trade-policy-condition"
+      "challenge": "challenge.trade-policy-condition#login"
     }
   },
-  "challenge.trade-policy-condition": {
+  "challenge.trade-policy-condition#login": {
     "props": {
       "redirectPath": "/login"
     }

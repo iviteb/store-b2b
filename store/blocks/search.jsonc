@@ -6,7 +6,10 @@
         "__unstableProductOriginVtex": true
       }
     },
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition#login"
+    }
   },
   "search-result-layout": {
     "blocks": [

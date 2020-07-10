@@ -2,6 +2,9 @@
     "store.custom#branduri": {
         "path": "/branduri"
     },
+    "store.quickorder": {
+        "path": "/quickorder"
+    },
     "store.custom#info-center": {
         "path": "/info-center"
     },
