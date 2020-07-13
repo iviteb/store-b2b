@@ -31,16 +31,9 @@
 
   "form#register": {  
     "props": {  
-      "entity": "CL",  
-      "schema": "person"  
-    },  
-    "children": [  
-      "form-input.text#firstName",  
-      "form-input.text#lastName",  
-      "form-field-group#address",  
-      "form-input.checkbox#agreement",  
-      "form-submit"  
-    ],  
+      "entity": "RE",  
+      "schema": "inregistrare_client"  
+    },
     "blocks": ["form-success"]  
   },  
   "form-success": {  
@@ -50,37 +43,11 @@
   },  
   "rich-text#successSubmit": {  
     "props": {  
-      "text": "Succesfully submitted the data!",  
+      "text": "Cererea ta a fost trimisa cu succes!",  
       "textAlignment": "CENTER",  
       "textPosition": "CENTER"  
     }  
   },  
-  "form-input.text#firstName": {  
-    "props": {  
-      "pointer": "#/properties/firstName"  
-    }  
-  },  
-  "form-input.text#lastName": {  
-    "props": {  
-      "pointer": "#/properties/lastName"  
-    }  
-  },  
-  "form-input.checkbox#agreement": {  
-    "props": {  
-      "pointer": "#/properties/agreement",  
-      "label": "Do you agree that this is the best form component in the whole wide world?"  
-    }  
-  },  
-  "form-field-group#address": {  
-    "props": {  
-      "pointer": "#/properties/address"  
-    }  
-  },  
-  "form-submit": {  
-    "props": {  
-      "label": "Submit"  
-    }  
-  },
   "rich-text#title-about-us": {
     "props": {
       "text":
@@ -100,7 +67,7 @@
 
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure.",
+      "text": "**Completeaza formularul de mai jos** \n Contul tau va fi aprobat in cel mai scurt timp. Daca nu ai primit inca un raspuns, [contacteaza-ne](/info-center)",
       "blockClass": "about"
     }
   }
