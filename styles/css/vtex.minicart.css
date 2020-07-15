@@ -44,3 +44,28 @@
     justify-content: center;
     align-items: center;
 }
+
+
+/*Nuevo*/
+
+.minicartContainer :global(.vtex-button):active {
+    background-color: #304591;
+    color: white;
+    border-style: solid;
+    border-color: #304591;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+    background-color: #304591;
+    color: white;
+    border-style: solid;
+    border-color: #304591;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover,
+.minicartCheckoutButton :global(.vtex-button):active {
+    background-color: #2d8640;
+    color: white;
+    border-style: solid;
+    border-color: #2d8640;
+}

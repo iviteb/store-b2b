@@ -1,0 +1,15 @@
+.formSubmitButton :global(.vtex-button) {
+    background-color: #304591;
+    color: white;
+    border-style: solid;
+    border-color: #304591;
+    margin-top: 2em;
+}
+
+.formSubmitButton :global(.vtex-button):hover {
+    background-color: #2d8640;
+    color: white;
+    border-style: solid;
+    border-color: #2d8640;
+    margin-top: 2em;
+}

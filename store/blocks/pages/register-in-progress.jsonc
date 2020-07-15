@@ -1,15 +1,10 @@
 {
   "store.custom#register-in-progress": {
-    "blocks": [
-      "flex-layout.row#register-in-progress"
-    ]
+    "blocks": ["flex-layout.row#register-in-progress"]
   },
 
   "flex-layout.row#register-in-progress": {
-    "children": [
-      "image#mobile-phone",
-      "flex-layout.col#pending-approval"
-    ]
+    "children": ["image#mobile-phone", "flex-layout.col#pending-approval"]
   },
 
   "flex-layout.col#pending-approval": {
@@ -25,8 +20,7 @@
 
   "rich-text#title-pending-approval": {
     "props": {
-      "text":
-      "# Contul tau asteapta aprobare.",
+      "text": "# Contul tau asteapta aprobare.",
       "blockClass": "title"
     }
   },

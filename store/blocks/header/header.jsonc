@@ -46,7 +46,7 @@
       "search-bar",
       "flex-layout.col#spacer",
       "login",
-      "minicart"
+      "minicart.v2"
     ]
   },
   // principio
@@ -148,8 +148,7 @@
       "menu-item#suplimente",
       "menu-item#aparatura",
       "menu-item#igiera",
-      "menu-item#ferme",
-      "search-bar"
+      "menu-item#ferme"
     ],
     "props": {
       "orientation": "vertical"
