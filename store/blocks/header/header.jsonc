@@ -27,7 +27,8 @@
   },
   "sticky-layout#4-desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "sticky-header",
+      "position": "TOP"
     },
     "children": ["flex-layout.row#4-desktop", "header-row#2-desktop"]
   },
