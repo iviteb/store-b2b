@@ -14,13 +14,14 @@
       "flex-layout.row#home",
       "__fold__"
     ],
-    "parent": {
-      "challenge": "challenge.trade-policy-condition"
-    }
+     "parent": {
+       "challenge": "challenge.trade-policy-condition#login"
+     }
   },
-  "challenge.trade-policy-condition": {
+  "challenge.trade-policy-condition#login": {
     "props": {
-      "redirectPath": "/login"
+      "redirectPath": "/inregistrare",
+      "forbiddenRedirectPath":"/pending-approval"
     }
   },
   "image#main": {

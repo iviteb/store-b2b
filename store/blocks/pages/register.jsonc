@@ -1,0 +1,74 @@
+{
+  // Created only for demo purpuses, if they would like a custom form for the user registration.
+  // If you would like to see the page in the frontend, you need to add it to the routes.
+  // "store.custom#register":{
+  //     "path": "/inregistrare"
+  // },
+  "store.custom#register": {
+    "blocks": [
+      "flex-layout.row#register"
+    ]
+  },
+
+  "flex-layout.row#register": {
+    "children": [
+      "image#mobile-phone",
+      "flex-layout.col#text-about-us"
+    ]
+  },
+
+  "flex-layout.col#text-about-us": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#about-us",
+      "form#register"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "form#register": {  
+    "props": {  
+      "entity": "RE",  
+      "schema": "inregistrare_client"  
+    },
+    "blocks": ["form-success"]  
+  },  
+  "form-success": {  
+    "children": [  
+      "rich-text#successSubmit"  
+    ]  
+  },  
+  "rich-text#successSubmit": {  
+    "props": {  
+      "text": "Cererea ta a fost trimisa cu succes!",  
+      "textAlignment": "CENTER",  
+      "textPosition": "CENTER"  
+    }  
+  },  
+  "rich-text#title-about-us": {
+    "props": {
+      "text":
+      "# Inregistreaza-te pentru a avea acces in platforma Vetro.",
+      "blockClass": "title"
+    }
+  },
+
+  "image#mobile-phone": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+
+  "rich-text#about-us": {
+    "props": {
+      "text": "**Completeaza formularul de mai jos** \n Contul tau va fi aprobat in cel mai scurt timp. Daca nu ai primit inca un raspuns, [contacteaza-ne](/info-center)",
+      "blockClass": "about"
+    }
+  }
+}

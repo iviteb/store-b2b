@@ -2,6 +2,15 @@
     "store.custom#branduri": {
         "path": "/branduri"
     },
+    "store.custom#register-in-progress": {
+        "path": "/pending-approval"
+    },
+    "store.custom#register": {
+        "path": "/inregistrare"
+    },
+    "store.quickorder": {
+        "path": "/quickorder"
+    },
     "store.custom#info-center": {
         "path": "/info-center"
     },

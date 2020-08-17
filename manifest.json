@@ -1,7 +1,7 @@
 {
   "vendor": "vetrob2c",
   "name": "themeb2bvetro",
-  "version": "0.8.0",
+  "version": "0.8.3",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -49,6 +49,7 @@
     "vtex.challenge-tp-condition": "0.x",
     "vtex.store-image": "0.x",
     "vtex.product-price": "1.x",
+    "vtex.quickorder": "2.x",
     "vtex.search": "1.x",
     "vtex.store-form": "0.x"
   },
