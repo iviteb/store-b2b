@@ -1,7 +1,7 @@
 {
   "vendor": "vetrob2c",
   "name": "themeb2bvetro",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -51,7 +51,8 @@
     "vtex.product-price": "1.x",
     "vtex.quickorder": "2.x",
     "vtex.search": "1.x",
-    "vtex.store-form": "0.x"
+    "vtex.store-form": "0.x",
+    "vtex.checkout-summary": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

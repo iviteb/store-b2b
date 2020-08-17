@@ -1,0 +1,5 @@
+{
+  "minicart-summary#example": {
+    "blocks": ["checkout-summary.compact"]
+  }
+}

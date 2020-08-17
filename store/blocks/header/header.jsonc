@@ -27,7 +27,8 @@
   },
   "sticky-layout#4-desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "sticky-header",
+      "position": "TOP"
     },
     "children": ["flex-layout.row#4-desktop", "header-row#2-desktop"]
   },
@@ -46,7 +47,7 @@
       "search-bar",
       "flex-layout.col#spacer",
       "login",
-      "minicart"
+      "minicart.v2"
     ]
   },
   // principio
@@ -148,8 +149,7 @@
       "menu-item#suplimente",
       "menu-item#aparatura",
       "menu-item#igiera",
-      "menu-item#ferme",
-      "search-bar"
+      "menu-item#ferme"
     ],
     "props": {
       "orientation": "vertical"

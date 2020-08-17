@@ -67,9 +67,11 @@
 
 /* stick wrapper with the same color as the desktop/mobile header */
 
+
+/*
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     background: #304591;
-}
+}*/
 
 
 /* resize the logo for neat effect */
