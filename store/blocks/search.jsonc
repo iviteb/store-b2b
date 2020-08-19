@@ -8,7 +8,7 @@
     },
     "blocks": ["search-result-layout"],
     "parent": {
-       "challenge": "challenge.trade-policy-condition#login"
+      "challenge": "challenge.trade-policy-condition#login"
     }
   },
   "search-result-layout": {
@@ -32,6 +32,7 @@
       //"flex-layout.row#suggestion",
       //"flex-layout.row#banner-one",
       "flex-layout.row#results",
+      //"search-title.v2",
       "search-fetch-more"
     ],
     "props": {

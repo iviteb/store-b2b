@@ -55,7 +55,8 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
-      "__unstableProductOriginVtex": true
+      "__unstableProductOriginVtex": true,
+      "historyFirst": true
     }
   },
   "autocomplete-result-list.v2": {
