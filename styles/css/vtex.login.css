@@ -6,7 +6,7 @@
 :global(.vtex-login-2-x-button) :global(.vtex-button) {
     width: 100%;
     min-height: 2.5rem;
-    background: #2d8640;
+    background: #28724f;
     color: white;
     border: none;
 }
@@ -34,7 +34,7 @@
 }
 
 .accountOptions :global(.vtex-button) {
-    color: #2d8640;
+    color: #28724f;
 }
 
 .sendButton :global(.vtex-button) {
@@ -45,8 +45,8 @@
 }
 
 .sendButton :global(.vtex-button):hover {
-    background-color: #2d8640;
+    background-color: #28724f;
     color: white;
     border-style: solid;
-    border-color: #2d8640;
+    border-color: #28724f;
 }

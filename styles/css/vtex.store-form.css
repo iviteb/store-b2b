@@ -7,9 +7,9 @@
 }
 
 .formSubmitButton :global(.vtex-button):hover {
-    background-color: #2d8640;
+    background-color: #28724f;
     color: white;
     border-style: solid;
-    border-color: #2d8640;
+    border-color: #28724f;
     margin-top: 2em;
 }

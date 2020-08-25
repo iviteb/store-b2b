@@ -22,7 +22,7 @@
 :global(.vtex-minicart-2-x-contentFooter) :global(.vtex-button):hover {
     width: 100%;
     min-height: 2.5rem;
-    background-color: #2d8640;
+    background-color: #28724f;
     border: none;
 }
 
@@ -64,8 +64,8 @@
 
 .minicartCheckoutButton :global(.vtex-button):hover,
 .minicartCheckoutButton :global(.vtex-button):active {
-    background-color: #2d8640;
+    background-color: #28724f;
     color: white;
     border-style: solid;
-    border-color: #2d8640;
+    border-color: #28724f;
 }

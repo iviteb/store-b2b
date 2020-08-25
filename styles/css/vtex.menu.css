@@ -1,5 +1,5 @@
 .styledLink--branduri {
-    color: #2d8640;
+    color: #28724f;
     font-weight: bolder;
 }
 
@@ -12,6 +12,6 @@
 }
 
 .styledLinkContent--menu-footer:hover {
-    color: #2d8640;
-    text-decoration: underline #2d8640;
+    color: #28724f;
+    text-decoration: underline #28724f;
 }
