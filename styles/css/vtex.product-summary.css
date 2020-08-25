@@ -28,7 +28,7 @@
 .brandName {
     font-weight: 600;
     font-size: 18px;
-    color: #304591;
+    color: #236192;
 }
 
 .container {
@@ -49,7 +49,7 @@
     overflow: hidden;
     color: #2d8640;
     background: #ffffff;
-    border: 3px solid #304591;
+    border: 3px solid #236192;
     cursor: pointer;
     transition: ease-out 0.5s;
     -webkit-transition: ease-out 0.5s;

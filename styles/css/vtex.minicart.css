@@ -14,7 +14,7 @@
 :global(.vtex-minicart-2-x-contentFooter) :global(.vtex-button) {
     width: 100%;
     min-height: 2.5rem;
-    background-color: #304591;
+    background-color: #236192;
     color: white;
     border: none;
 }
@@ -30,10 +30,10 @@
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):hover,
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):focus,
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):active {
-    background-color: #304591;
+    background-color: #236192;
     color: white;
     border-style: solid;
-    border-color: #304591;
+    border-color: #236192;
 }
 
 .minicartIconContainer {
@@ -49,17 +49,17 @@
 /*Nuevo*/
 
 .minicartContainer :global(.vtex-button):active {
-    background-color: #304591;
+    background-color: #236192;
     color: white;
     border-style: solid;
-    border-color: #304591;
+    border-color: #236192;
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-    background-color: #304591;
+    background-color: #236192;
     color: white;
     border-style: solid;
-    border-color: #304591;
+    border-color: #236192;
 }
 
 .minicartCheckoutButton :global(.vtex-button):hover,

@@ -1,9 +1,9 @@
 :global(.vtex-search-result-3-x-galleryTitle--layout) {
-    color: #304591;
+    color: #236192;
 }
 
 .buttonShowMore :global(.vtex-button) {
-    color: #304591;
+    color: #236192;
     background-color: white;
-    border: 3px solid #304591;
+    border: 3px solid #236192;
 }

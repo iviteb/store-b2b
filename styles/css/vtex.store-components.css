@@ -76,7 +76,7 @@
 }
 
 .newsletter {
-    background-color: #304591;
+    background-color: #236192;
 }
 
 .infoCardTextContainer--promocional {
@@ -98,7 +98,7 @@
 .infoCardHeadline--banner-1,
 .infoCardHeadline--banner-2,
 .infoCardHeadline--banner-7 {
-    color: #304591;
+    color: #236192;
 }
 
 .newsletter .label {
@@ -147,7 +147,7 @@
 .infoCardCallActionContainer--banner-2 :global(.vtex-button):hover,
 .infoCardCallActionContainer--banner-1 :global(.vtex-button):hover,
 .infoCardCallActionContainer--banner-7 :global(.vtex-button):hover {
-    background-color: #304591;
+    background-color: #236192;
     border: none;
 }
 
