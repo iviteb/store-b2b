@@ -1,7 +1,7 @@
 {
   "vendor": "vetrob2c",
   "name": "themeb2bvetro",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
