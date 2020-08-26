@@ -51,17 +51,17 @@
      :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
      :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile),
      :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-        background: #236192;
+        background: #28724f;
     }
     /* header background when stuck and not hovered */
      :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
      :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-        background: #236192;
+        background: #28724f;
     }
 }
 
 :global(.vtex-store-header-2-x-headerStickyRow) {
-    border-bottom: 1px solid #236192;
+    border-bottom: 1px solid #28724f;
 }
 
 
@@ -70,7 +70,7 @@
 
 /*
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-    background: #236192;
+    background: #28724f;
 }*/
 
 

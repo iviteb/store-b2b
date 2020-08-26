@@ -14,7 +14,7 @@
 :global(.vtex-minicart-2-x-contentFooter) :global(.vtex-button) {
     width: 100%;
     min-height: 2.5rem;
-    background-color: #236192;
+    background-color: #28724f;
     color: white;
     border: none;
 }
@@ -22,7 +22,7 @@
 :global(.vtex-minicart-2-x-contentFooter) :global(.vtex-button):hover {
     width: 100%;
     min-height: 2.5rem;
-    background-color: #28724f;
+    background-color: #236192;
     border: none;
 }
 
@@ -30,10 +30,10 @@
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):hover,
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):focus,
 :global(.vtex-minicart-2-x-container) :global(.vtex-button):active {
-    background-color: #236192;
+    background-color: #28724f;
     color: white;
     border-style: solid;
-    border-color: #236192;
+    border-color: #28724f;
 }
 
 .minicartIconContainer {
@@ -49,23 +49,23 @@
 /*Nuevo*/
 
 .minicartContainer :global(.vtex-button):active {
-    background-color: #236192;
-    color: white;
-    border-style: solid;
-    border-color: #236192;
-}
-
-.minicartCheckoutButton :global(.vtex-button) {
-    background-color: #236192;
-    color: white;
-    border-style: solid;
-    border-color: #236192;
-}
-
-.minicartCheckoutButton :global(.vtex-button):hover,
-.minicartCheckoutButton :global(.vtex-button):active {
     background-color: #28724f;
     color: white;
     border-style: solid;
     border-color: #28724f;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+    background-color: #28724f;
+    color: white;
+    border-style: solid;
+    border-color: #28724f;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover,
+.minicartCheckoutButton :global(.vtex-button):active {
+    background-color: #236192;
+    color: white;
+    border-style: solid;
+    border-color: #236192;
 }

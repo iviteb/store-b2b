@@ -3,7 +3,7 @@
     justify-content: center;
     font-weight: bolder;
     font-size: medium;
-    color: #28724f;
+    color: #236192;
     margin-bottom: 1em;
 }
 
@@ -12,7 +12,7 @@
     justify-content: center;
     font-weight: bolder;
     font-size: 20px;
-    color: #28724f;
+    color: #236192;
 }
 
 .sellingPrice--sellingPriceWithTax {
@@ -20,7 +20,7 @@
     justify-content: center;
     font-weight: bold;
     font-size: small;
-    color: #236192;
+    color: #28724f;
     margin-top: 0.2em;
     margin-bottom: 1em;
 }
@@ -57,5 +57,5 @@
     justify-content: center;
     font-weight: bold;
     font-size: 18px;
-    color: #236192;
+    color: #28724f;
 }

@@ -6,7 +6,7 @@
 :global(.vtex-login-2-x-button) :global(.vtex-button) {
     width: 100%;
     min-height: 2.5rem;
-    background: #28724f;
+    background: #236192;
     color: white;
     border: none;
 }
@@ -14,7 +14,7 @@
 :global(.vtex-login-2-x-button) :global(.vtex-button):hover {
     width: 100%;
     min-height: 2.5rem;
-    background: #236192;
+    background: #28724f;
     color: white;
     border: none;
 }
@@ -23,10 +23,10 @@
 :global(.vtex-login-2-x-container) :global(.vtex-button):hover,
 :global(.vtex-login-2-x-container) :global(.vtex-button):focus,
 :global(.vtex-login-2-x-container) :global(.vtex-button):active {
-    background-color: #236192;
+    background-color: #28724f;
     color: white;
     border-style: solid;
-    border-color: #236192;
+    border-color: #28724f;
 }
 
 .profile {
@@ -34,19 +34,19 @@
 }
 
 .accountOptions :global(.vtex-button) {
-    color: #28724f;
+    color: #236192;
 }
 
 .sendButton :global(.vtex-button) {
-    background-color: #236192;
-    color: white;
-    border-style: solid;
-    border-color: #236192;
-}
-
-.sendButton :global(.vtex-button):hover {
     background-color: #28724f;
     color: white;
     border-style: solid;
     border-color: #28724f;
+}
+
+.sendButton :global(.vtex-button):hover {
+    background-color: #236192;
+    color: white;
+    border-style: solid;
+    border-color: #236192;
 }

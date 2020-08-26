@@ -55,7 +55,7 @@
 }
 
 .price_sellingPrice--product-price {
-    color: #28724f;
+    color: #236192;
 }
 
 .price_sellingPriceContainer--product-price {
@@ -76,7 +76,7 @@
 }
 
 .newsletter {
-    background-color: #236192;
+    background-color: #28724f;
 }
 
 .infoCardTextContainer--promocional {
@@ -85,7 +85,7 @@
 }
 
 .infoCardCallActionContainer--promocional :global(.vtex-button) {
-    background: #28724f;
+    background: #236192;
     margin-bottom: 4em;
     border: none;
 }
@@ -98,7 +98,7 @@
 .infoCardHeadline--banner-1,
 .infoCardHeadline--banner-2,
 .infoCardHeadline--banner-7 {
-    color: #236192;
+    color: #28724f;
 }
 
 .newsletter .label {
@@ -111,7 +111,7 @@
 }
 
 .newsletter :global(.vtex-button):hover {
-    background-color: #28724f;
+    background-color: #236192;
     border: none;
 }
 
@@ -140,14 +140,14 @@
 .infoCardCallActionContainer--banner-2 :global(.vtex-button),
 .infoCardCallActionContainer--banner-1 :global(.vtex-button),
 .infoCardCallActionContainer--banner-7 :global(.vtex-button) {
-    background-color: #28724f;
+    background-color: #236192;
     border: none;
 }
 
 .infoCardCallActionContainer--banner-2 :global(.vtex-button):hover,
 .infoCardCallActionContainer--banner-1 :global(.vtex-button):hover,
 .infoCardCallActionContainer--banner-7 :global(.vtex-button):hover {
-    background-color: #236192;
+    background-color: #28724f;
     border: none;
 }
 

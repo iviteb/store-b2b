@@ -1,5 +1,5 @@
 :global(.vtex-category-menu-2-x-departmentLink) {
-    color: #28724f;
+    color: #236192;
     font-weight: bolder;
 }
 
@@ -8,6 +8,6 @@
 }
 
 :global(.vtex-category-menu-2-x-firstLevelLink) {
-    color: #236192;
+    color: #28724f;
     font-weight: bold;
 }
