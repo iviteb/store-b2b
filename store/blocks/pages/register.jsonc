@@ -46,7 +46,9 @@
   "rich-text#title-about-us": {
     "props": {
       "text": "# Inregistreaza-te pentru a avea acces in platforma Vetro.",
-      "blockClass": "title"
+      "blockClass": "title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
 
