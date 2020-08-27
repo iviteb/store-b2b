@@ -75,14 +75,6 @@
       "blockClass": "login-menu"
     }
   },
-  "minicart": {
-    "props": {
-      "showIconProfile": true,
-      "iconLabel": "Consul Meu",
-      "blockClass": "minicart"
-    }
-  },
-
   "logo#desktop": {
     "props": {
       "title": "Logo",

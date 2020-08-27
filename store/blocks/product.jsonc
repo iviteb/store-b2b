@@ -58,7 +58,7 @@
       "blockClass": "product-details"
     },
     "children": [
-      "product-name",
+      "vtex.store-components@3.x:product-name",
       "product-rating-summary",
       //"product-price#product-details",
       "flex-layout.row#sellingPriceValueProduct",
@@ -73,7 +73,7 @@
       "share#default"
     ]
   },
-  "product-name": {
+  "vtex.store-components@3.x:product-name": {
     "props": {
       "blockClass": "product-name"
     }
