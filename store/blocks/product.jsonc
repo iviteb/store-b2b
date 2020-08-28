@@ -5,7 +5,10 @@
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "shelf.relatedProducts"
-    ]
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition#login"
+    }
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
