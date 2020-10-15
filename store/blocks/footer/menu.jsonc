@@ -127,6 +127,22 @@
       }
     }
   },
+  "menu-item#politica-de-retur": {
+    "props": {
+      "id": "menu-item-politica-de-retur",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-retur",
+        "noFollow": false,
+        "tagTitle": "Politica de retur",
+        "text": "Politica de retur"
+      }
+    }
+  },
   "vtex.menu@2.x:menu#footer-produse": {
     "props": {
       "orientation": "vertical"
@@ -155,7 +171,8 @@
       "menu-item#contact",
       "menu-item#termeni-si",
       "menu-item#conditii",
-      "menu-item#depre"
+      "menu-item#depre",
+      "menu-item#politica-de-retur"
     ],
     "props": {
       "paddingRight": 5
