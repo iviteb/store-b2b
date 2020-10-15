@@ -1,0 +1,41 @@
+{
+    "store.custom#politica-de-retur": {
+        "blocks": [
+            "flex-layout.row#politica-de-retur"
+        ]
+    },
+    "flex-layout.row#politica-de-retur": {
+        "children": [
+            "flex-layout.col#politica-de-retur"
+        ],
+        "props": {
+            "marginBottom": 5
+        }
+    },
+    "flex-layout.col#politica-de-retur": {
+        "children": [
+            "rich-text#politica-de-retur-title",
+            "rich-text#politica-de-retur-content"
+        ],
+        "props": {
+            "paddingLeft": 10,
+            "paddingRight": 10
+        }
+    },
+    "rich-text#politica-de-retur-title": {
+        "props": {
+            "text": "Politica de retur",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-3",
+            "blockClass": "branduri-text"
+        }
+    },
+    "rich-text#politica-de-retur-content": {
+        "props": {
+            "text": "Placeholder",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    }
+}
